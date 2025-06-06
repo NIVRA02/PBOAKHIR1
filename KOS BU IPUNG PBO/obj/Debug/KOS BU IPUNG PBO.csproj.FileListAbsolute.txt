@@ -1,0 +1,13 @@
+C:\Users\NIVRA\source\repos\KOS BU IPUNG PBO\KOS BU IPUNG PBO\bin\Debug\KOS BU IPUNG PBO.exe
+C:\Users\NIVRA\source\repos\KOS BU IPUNG PBO\KOS BU IPUNG PBO\bin\Debug\KOS BU IPUNG PBO.exe.config
+C:\Users\NIVRA\source\repos\KOS BU IPUNG PBO\KOS BU IPUNG PBO\obj\Debug\KOS BU IPUNG PBO.csproj.AssemblyReference.cache
+C:\Users\NIVRA\source\repos\KOS BU IPUNG PBO\KOS BU IPUNG PBO\obj\Debug\KOS_BU_IPUNG_PBO.frmRegister.resources
+C:\Users\NIVRA\source\repos\KOS BU IPUNG PBO\KOS BU IPUNG PBO\obj\Debug\KOS_BU_IPUNG_PBO.frmLogin.resources
+C:\Users\NIVRA\source\repos\KOS BU IPUNG PBO\KOS BU IPUNG PBO\obj\Debug\KOS_BU_IPUNG_PBO.Properties.Resources.resources
+C:\Users\NIVRA\source\repos\KOS BU IPUNG PBO\KOS BU IPUNG PBO\obj\Debug\KOS BU IPUNG PBO.csproj.GenerateResource.cache
+C:\Users\NIVRA\source\repos\KOS BU IPUNG PBO\KOS BU IPUNG PBO\obj\Debug\KOS BU IPUNG PBO.csproj.CoreCompileInputs.cache
+C:\Users\NIVRA\source\repos\KOS BU IPUNG PBO\KOS BU IPUNG PBO\obj\Debug\KOS BU IPUNG PBO.exe
+C:\Users\NIVRA\source\repos\KOS BU IPUNG PBO\KOS BU IPUNG PBO\obj\Debug\KOS BU IPUNG PBO.pdb
+C:\Users\NIVRA\source\repos\KOS BU IPUNG PBO\KOS BU IPUNG PBO\bin\Debug\KOS BU IPUNG PBO.pdb
+C:\Users\NIVRA\source\repos\KOS BU IPUNG PBO\KOS BU IPUNG PBO\obj\Debug\KOS_BU_IPUNG_PBO.main.resources
+C:\Users\NIVRA\source\repos\KOS BU IPUNG PBO\KOS BU IPUNG PBO\obj\Debug\KOS_BU_IPUNG_PBO.frmMain.resources

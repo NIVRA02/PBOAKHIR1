@@ -3,7 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\NIVRA\\source\\repos\\PBOAKHIR1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|C:\\Users\\NIVRA\\source\\repos\\PBOAKHIR1\\kos bu ipung pbo\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|c:\\users\\nivra\\source\\repos\\pboakhir1\\kos bu ipung pbo\\frmadmin1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|solutionrelative:kos bu ipung pbo\\frmadmin1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|c:\\users\\nivra\\source\\repos\\pboakhir1\\kos bu ipung pbo\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|solutionrelative:kos bu ipung pbo\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -11,7 +15,7 @@
       "RelativeMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|solutionrelative:kos bu ipung pbo\\frmregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|c:\\users\\nivra\\source\\repos\\pboakhir1\\kos bu ipung pbo\\frmregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|C:\\Users\\NIVRA\\source\\repos\\PBOAKHIR1\\kos bu ipung pbo\\frmregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|solutionrelative:kos bu ipung pbo\\frmregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -46,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -70,7 +74,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "FrmAdmin1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\NIVRA\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FrmAdmin1.cs",
+              "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\FrmAdmin1.cs",
+              "ToolTip": "C:\\Users\\NIVRA\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FrmAdmin1.cs [Design]",
+              "RelativeToolTip": "KOS BU IPUNG PBO\\FrmAdmin1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T12:16:44.055Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "frmRegister.cs",
               "DocumentMoniker": "C:\\Users\\NIVRA\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\frmRegister.cs",
               "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\frmRegister.cs",
@@ -78,37 +94,35 @@
               "RelativeToolTip": "KOS BU IPUNG PBO\\frmRegister.cs",
               "ViewState": "AgIAAHEAAAAAAAAAAAAhwIQAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T12:03:21.551Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-07T12:03:21.551Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "frmRegister.cs [Design]",
               "DocumentMoniker": "C:\\Users\\NIVRA\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\frmRegister.cs",
               "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\frmRegister.cs",
               "ToolTip": "C:\\Users\\NIVRA\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\frmRegister.cs [Design]",
               "RelativeToolTip": "KOS BU IPUNG PBO\\frmRegister.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T12:03:19.14Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-06-07T12:03:19.14Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "frmLogin.cs",
               "DocumentMoniker": "C:\\Users\\NIVRA\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\frmLogin.cs",
               "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\frmLogin.cs",
               "ToolTip": "C:\\Users\\NIVRA\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\frmLogin.cs",
               "RelativeToolTip": "KOS BU IPUNG PBO\\frmLogin.cs",
-              "ViewState": "AgIAAFEAAAAAAAAAAAASwFcAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAUwC8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-07T06:45:52.153Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "frmMain.Designer.cs",
               "DocumentMoniker": "C:\\Users\\NIVRA\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\frmMain.Designer.cs",
               "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\frmMain.Designer.cs",
@@ -120,7 +134,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "frmMain.resx",
               "DocumentMoniker": "C:\\Users\\NIVRA\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\frmMain.resx",
               "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\frmMain.resx",
@@ -131,7 +145,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "frmMain.cs [Design]",
               "DocumentMoniker": "C:\\Users\\NIVRA\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\frmMain.cs",
               "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\frmMain.cs",
@@ -142,7 +156,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "main.cs [Design]",
               "DocumentMoniker": "C:\\Users\\NIVRA\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\main.cs",
               "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\main.cs",
@@ -153,19 +167,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "frmLogin.cs [Design]",
               "DocumentMoniker": "C:\\Users\\NIVRA\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\frmLogin.cs",
               "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\frmLogin.cs",
               "ToolTip": "C:\\Users\\NIVRA\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\frmLogin.cs [Design]",
               "RelativeToolTip": "KOS BU IPUNG PBO\\frmLogin.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T06:44:30.326Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-06-07T06:44:30.326Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "DocumentLayout.json",
               "DocumentMoniker": "C:\\Users\\NIVRA\\source\\repos\\PBOAKHIR1\\.vs\\PBOAKHIR1\\v17\\DocumentLayout.json",
               "RelativeDocumentMoniker": ".vs\\PBOAKHIR1\\v17\\DocumentLayout.json",

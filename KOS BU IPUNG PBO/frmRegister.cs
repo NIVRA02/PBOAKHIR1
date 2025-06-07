@@ -125,5 +125,12 @@ namespace KOS_BU_IPUNG_PBO
                 txtPassword.PasswordChar = '*';
             }
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            txtEmail.Text = "";
+            txtusername.Text = "";
+            txtPassword.Text = "";
+        }
     }
 }

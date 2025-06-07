@@ -3,27 +3,35 @@
   "WorkspaceRootPath": "C:\\Users\\NIVRA\\source\\repos\\PBOAKHIR1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|c:\\users\\nivra\\source\\repos\\pboakhir1\\kos bu ipung pbo\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|C:\\Users\\NIVRA\\source\\repos\\PBOAKHIR1\\kos bu ipung pbo\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|solutionrelative:kos bu ipung pbo\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|c:\\users\\nivra\\source\\repos\\pboakhir1\\kos bu ipung pbo\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|C:\\Users\\NIVRA\\source\\repos\\PBOAKHIR1\\kos bu ipung pbo\\frmregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|solutionrelative:kos bu ipung pbo\\frmregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|c:\\users\\nivra\\source\\repos\\pboakhir1\\kos bu ipung pbo\\frmregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|solutionrelative:kos bu ipung pbo\\frmregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|C:\\Users\\NIVRA\\source\\repos\\PBOAKHIR1\\kos bu ipung pbo\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|solutionrelative:kos bu ipung pbo\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|c:\\users\\nivra\\source\\repos\\pboakhir1\\kos bu ipung pbo\\frmmain.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|solutionrelative:kos bu ipung pbo\\frmmain.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|c:\\users\\nivra\\source\\repos\\pboakhir1\\kos bu ipung pbo\\frmmain.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "AbsoluteMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|C:\\Users\\NIVRA\\source\\repos\\PBOAKHIR1\\kos bu ipung pbo\\frmmain.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
       "RelativeMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|solutionrelative:kos bu ipung pbo\\frmmain.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|c:\\users\\nivra\\source\\repos\\pboakhir1\\kos bu ipung pbo\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|C:\\Users\\NIVRA\\source\\repos\\PBOAKHIR1\\kos bu ipung pbo\\frmmain.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|solutionrelative:kos bu ipung pbo\\frmmain.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|C:\\Users\\NIVRA\\source\\repos\\PBOAKHIR1\\kos bu ipung pbo\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|solutionrelative:kos bu ipung pbo\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|c:\\users\\nivra\\source\\repos\\pboakhir1\\kos bu ipung pbo\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|C:\\Users\\NIVRA\\source\\repos\\PBOAKHIR1\\kos bu ipung pbo\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|solutionrelative:kos bu ipung pbo\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -38,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -53,82 +61,111 @@
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmRegister.cs",
+              "DocumentMoniker": "C:\\Users\\NIVRA\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\frmRegister.cs",
+              "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\frmRegister.cs",
+              "ToolTip": "C:\\Users\\NIVRA\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\frmRegister.cs",
+              "RelativeToolTip": "KOS BU IPUNG PBO\\frmRegister.cs",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAhwIQAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T12:03:21.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmRegister.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\NIVRA\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\frmRegister.cs",
+              "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\frmRegister.cs",
+              "ToolTip": "C:\\Users\\NIVRA\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\frmRegister.cs [Design]",
+              "RelativeToolTip": "KOS BU IPUNG PBO\\frmRegister.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T12:03:19.14Z",
+              "EditorCaption": " [Design]"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "frmLogin.cs",
               "DocumentMoniker": "C:\\Users\\NIVRA\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\frmLogin.cs",
               "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\frmLogin.cs",
-              "ToolTip": "C:\\Users\\NIVRA\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\frmLogin.cs*",
-              "RelativeToolTip": "KOS BU IPUNG PBO\\frmLogin.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGkAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\NIVRA\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\frmLogin.cs",
+              "RelativeToolTip": "KOS BU IPUNG PBO\\frmLogin.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAASwFcAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-07T06:45:52.153Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "frmMain.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\NIVRA\\Source\\Repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\frmMain.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\NIVRA\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\frmMain.Designer.cs",
               "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\frmMain.Designer.cs",
-              "ToolTip": "C:\\Users\\NIVRA\\Source\\Repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\frmMain.Designer.cs",
+              "ToolTip": "C:\\Users\\NIVRA\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\frmMain.Designer.cs",
               "RelativeToolTip": "KOS BU IPUNG PBO\\frmMain.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T06:45:41.617Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "frmMain.resx",
-              "DocumentMoniker": "C:\\Users\\NIVRA\\Source\\Repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\frmMain.resx",
-              "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\frmMain.resx",
-              "ToolTip": "C:\\Users\\NIVRA\\Source\\Repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\frmMain.resx",
-              "RelativeToolTip": "KOS BU IPUNG PBO\\frmMain.resx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2025-06-07T06:45:38.186Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-07T06:45:41.617Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "frmMain.resx",
+              "DocumentMoniker": "C:\\Users\\NIVRA\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\frmMain.resx",
+              "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\frmMain.resx",
+              "ToolTip": "C:\\Users\\NIVRA\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\frmMain.resx",
+              "RelativeToolTip": "KOS BU IPUNG PBO\\frmMain.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-06-07T06:45:38.186Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "frmMain.cs [Design]",
               "DocumentMoniker": "C:\\Users\\NIVRA\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\frmMain.cs",
               "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\frmMain.cs",
               "ToolTip": "C:\\Users\\NIVRA\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\frmMain.cs [Design]",
               "RelativeToolTip": "KOS BU IPUNG PBO\\frmMain.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T06:45:32.295Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-06-07T06:45:32.295Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "main.cs [Design]",
               "DocumentMoniker": "C:\\Users\\NIVRA\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\main.cs",
               "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\main.cs",
               "ToolTip": "C:\\Users\\NIVRA\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\main.cs [Design]",
               "RelativeToolTip": "KOS BU IPUNG PBO\\main.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T06:45:29.613Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-06-07T06:45:29.613Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "frmLogin.cs [Design]",
               "DocumentMoniker": "C:\\Users\\NIVRA\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\frmLogin.cs",
               "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\frmLogin.cs",
-              "ToolTip": "C:\\Users\\NIVRA\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\frmLogin.cs [Design]*",
-              "RelativeToolTip": "KOS BU IPUNG PBO\\frmLogin.cs [Design]*",
+              "ToolTip": "C:\\Users\\NIVRA\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\frmLogin.cs [Design]",
+              "RelativeToolTip": "KOS BU IPUNG PBO\\frmLogin.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-07T06:44:30.326Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "DocumentLayout.json",
               "DocumentMoniker": "C:\\Users\\NIVRA\\source\\repos\\PBOAKHIR1\\.vs\\PBOAKHIR1\\v17\\DocumentLayout.json",
               "RelativeDocumentMoniker": ".vs\\PBOAKHIR1\\v17\\DocumentLayout.json",
@@ -136,16 +173,7 @@
               "RelativeToolTip": ".vs\\PBOAKHIR1\\v17\\DocumentLayout.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-06T18:54:18.889Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+              "WhenOpened": "2025-06-06T18:54:18.889Z"
             }
           ]
         }

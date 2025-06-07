@@ -101,5 +101,10 @@ namespace KOS_BU_IPUNG_PBO
 
         }
 
+        private void button2_Click(object sender, EventArgs e)
+        {
+            txtPassword.Text = "";
+            txtPassword.Text = "";
+        }
     }
 }

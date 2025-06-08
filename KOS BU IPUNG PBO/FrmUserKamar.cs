@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data;
+using System.Data.SqlClient;
 
 namespace KOS_BU_IPUNG_PBO
 {
@@ -21,5 +23,6 @@ namespace KOS_BU_IPUNG_PBO
         {
 
         }
+
     }
 }

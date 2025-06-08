@@ -21,5 +21,12 @@ namespace KOS_BU_IPUNG_PBO
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            FormAdminKelola h = new FormAdminKelola();
+            h.Show();
+            this.Hide();
+        }
     }
 }

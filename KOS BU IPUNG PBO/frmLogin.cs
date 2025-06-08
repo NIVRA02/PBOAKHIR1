@@ -57,7 +57,7 @@ namespace KOS_BU_IPUNG_PBO
                 this.Hide();
             }
 
-            if (txtusername.Text == "" || txtusername.Text == "")
+            else if (txtusername.Text == "" || txtusername.Text == "")
             {
                 MessageBox.Show("Please fil all blank fields", "Error Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }

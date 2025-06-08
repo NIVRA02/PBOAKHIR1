@@ -92,6 +92,7 @@
             this.button4.TabIndex = 21;
             this.button4.Text = "TAMBAH KAMAR";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // label1
             // 

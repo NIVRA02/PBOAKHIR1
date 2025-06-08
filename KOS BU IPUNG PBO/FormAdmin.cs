@@ -10,23 +10,11 @@ using System.Windows.Forms;
 
 namespace KOS_BU_IPUNG_PBO
 {
-    public partial class FormAdminKelola: Form
+    public partial class FormAdmin: Form
     {
-        public FormAdminKelola()
+        public FormAdmin()
         {
             InitializeComponent();
-        }
-
-        private void FormAdminKelola_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            FrmAdmin1 frmAdmin1 = new FrmAdmin1();
-            frmAdmin1.Show();
-            this.Hide();
         }
 
         private void label1_Click(object sender, EventArgs e)

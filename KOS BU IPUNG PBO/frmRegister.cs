@@ -15,7 +15,7 @@ namespace KOS_BU_IPUNG_PBO
 {
     public partial class frmRegister: Form
     {
-        SqlConnection connect = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=""C:\Users\NIVRA\Source\Repos\PBOAKHIR1\KOS BU IPUNG PBO\DatabasePBO.mdf"";Integrated Security=True;Connect Timeout=30");
+        SqlConnection connect = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=""C:\Users\LENOVO\source\repos\PBOAKHIR1\KOS BU IPUNG PBO\DatabasePBO.mdf"";Integrated Security=True;Connect Timeout=30");
 
         public frmRegister()
         {

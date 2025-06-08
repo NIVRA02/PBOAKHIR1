@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\",
+  "WorkspaceRootPath": "C:\\Users\\NIVRA\\source\\repos\\PBOAKHIR1\\",
   "Documents": [],
   "DocumentGroupContainers": [
     {
@@ -8,7 +8,7 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 132,
+          "DockedWidth": 300,
           "SelectedChildIndex": -1,
           "Children": [
             {
@@ -21,14 +21,6 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
@@ -37,16 +29,12 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             }
           ]
         },
         {
-          "DockedWidth": 268,
+          "DockedWidth": 123,
           "SelectedChildIndex": -1,
           "Children": [
             {

@@ -17,7 +17,7 @@ namespace KOS_BU_IPUNG_PBO
 
     public partial class frmLogin: Form
     {
-        SqlConnection connect = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\LENOVO\Documents\DatabasePBO.mdf;Integrated Security=True;Connect Timeout=30");
+        SqlConnection connect = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=""C:\Users\Samuel Gurning\OneDrive\文件\loginData.mdf"";Integrated Security=True;Connect Timeout=30;Encrypt=False");
 
         public frmLogin()
         {

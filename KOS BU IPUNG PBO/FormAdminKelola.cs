@@ -24,8 +24,8 @@ namespace KOS_BU_IPUNG_PBO
 
         private void button1_Click(object sender, EventArgs e)
         {
-            FrmAdmin1 frmAdmin1 = new FrmAdmin1();
-            frmAdmin1.Show();
+            FormAdmin frmAdmin = new FormAdmin();
+            frmAdmin.Show();
             this.Hide();
         }
 
@@ -36,7 +36,23 @@ namespace KOS_BU_IPUNG_PBO
 
         private void button4_Click(object sender, EventArgs e)
         {
+            FormTambahKamar frmTambahKamar = new FormTambahKamar();
+            frmTambahKamar.Show();
+            this.Hide();
+        }
 
+        private void button2_Click(object sender, EventArgs e)
+        {
+            FormEditKamar frmEditKamar = new FormEditKamar();
+            frmEditKamar.Show();
+            this.Hide();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            FormHapusKamar frmHapusKamar = new FormHapusKamar();
+            frmHapusKamar.Show();
+            this.Hide();
         }
     }
 }

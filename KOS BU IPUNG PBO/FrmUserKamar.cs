@@ -13,7 +13,7 @@ namespace KOS_BU_IPUNG_PBO
 {
     public partial class FrmUserKamar : Form
     {
-        private string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=""C:\Users\LENOVO\Source\Repos\PBOAKHIR1\KOS BU IPUNG PBO\DatabasePBO.mdf"";Integrated Security=True;Connect Timeout=30;Encrypt=False";
+        private string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=""C:\Users\Samuel Gurning\OneDrive\文件\loginData.mdf"";Integrated Security=True;Connect Timeout=30";
 
         public FrmUserKamar()
         {
@@ -39,6 +39,18 @@ namespace KOS_BU_IPUNG_PBO
         }
 
         private void backButton_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            frmMain frmMain = new frmMain();
+            frmMain.Show();
+        }
+
+        private void FrmUserKamar_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void backButton_Click_1(object sender, EventArgs e)
         {
             this.Hide();
             frmMain frmMain = new frmMain();

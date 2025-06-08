@@ -90,11 +90,29 @@
     <Compile Include="FormAdminValidasi.Designer.cs">
       <DependentUpon>FormAdminValidasi.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormEditKamar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEditKamar.Designer.cs">
+      <DependentUpon>FormEditKamar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormHapusKamar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormHapusKamar.Designer.cs">
+      <DependentUpon>FormHapusKamar.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormStatistikKos.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormStatistikKos.Designer.cs">
       <DependentUpon>FormStatistikKos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTambahKamar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTambahKamar.Designer.cs">
+      <DependentUpon>FormTambahKamar.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmAdmin1.cs">
       <SubType>Form</SubType>
@@ -163,8 +181,17 @@
     <EmbeddedResource Include="FormAdminValidasi.resx">
       <DependentUpon>FormAdminValidasi.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormEditKamar.resx">
+      <DependentUpon>FormEditKamar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormHapusKamar.resx">
+      <DependentUpon>FormHapusKamar.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormStatistikKos.resx">
       <DependentUpon>FormStatistikKos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTambahKamar.resx">
+      <DependentUpon>FormTambahKamar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmMain.resx">
       <DependentUpon>frmMain.cs</DependentUpon>

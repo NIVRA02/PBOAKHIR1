@@ -75,6 +75,7 @@
             this.button2.TabIndex = 17;
             this.button2.Text = "LIHAT PENGHUNI";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
@@ -89,6 +90,7 @@
             this.button3.TabIndex = 17;
             this.button3.Text = "VALIDASI PEMESANAN";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
@@ -103,6 +105,7 @@
             this.button4.TabIndex = 17;
             this.button4.Text = "STATISTIK KOS";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // FormAdmin
             // 

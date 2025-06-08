@@ -28,5 +28,26 @@ namespace KOS_BU_IPUNG_PBO
             h.Show();
             this.Hide();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            FormAdminLihatPenghuni h = new FormAdminLihatPenghuni();
+            h.Show();
+            this.Hide();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            FormAdminValidasi h = new FormAdminValidasi();
+            h.Show();
+            this.Hide();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            FormStatistikKos h = new FormStatistikKos();
+            h.Show();
+            this.Hide();
+        }
     }
 }

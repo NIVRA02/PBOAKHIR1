@@ -125,5 +125,10 @@ namespace KOS_BU_IPUNG_PBO
                 txtPassword.PasswordChar = '*';
             }
         }
+
+        private void frmLogin_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

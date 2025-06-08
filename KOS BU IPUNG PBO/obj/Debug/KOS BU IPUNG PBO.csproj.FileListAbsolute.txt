@@ -37,3 +37,4 @@ C:\Users\LENOVO\Source\Repos\PBOAKHIR1\KOS BU IPUNG PBO\obj\Debug\KOS BU IPUNG P
 C:\Users\LENOVO\Source\Repos\PBOAKHIR1\KOS BU IPUNG PBO\obj\Debug\KOS BU IPUNG PBO.csproj.CoreCompileInputs.cache
 C:\Users\LENOVO\Source\Repos\PBOAKHIR1\KOS BU IPUNG PBO\obj\Debug\KOS BU IPUNG PBO.exe
 C:\Users\LENOVO\Source\Repos\PBOAKHIR1\KOS BU IPUNG PBO\obj\Debug\KOS BU IPUNG PBO.pdb
+C:\Users\LENOVO\Source\Repos\PBOAKHIR1\KOS BU IPUNG PBO\obj\Debug\KOS_BU_IPUNG_PBO.FrmUserKamar.resources

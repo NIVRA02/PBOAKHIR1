@@ -13,7 +13,7 @@ namespace KOS_BU_IPUNG_PBO
 {
     public partial class FrmUserKamar : Form
     {
-        private string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=""C:\Users\Samuel Gurning\OneDrive\文件\loginData.mdf"";Integrated Security=True;Connect Timeout=30";
+        private string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=""C:\Users\LENOVO\Source\Repos\PBOAKHIR1\KOS BU IPUNG PBO\DatabasePBO.mdf"";Integrated Security=True;Connect Timeout=30";
 
         public FrmUserKamar()
         {
@@ -25,7 +25,7 @@ namespace KOS_BU_IPUNG_PBO
         {
             using (SqlConnection conn = new SqlConnection(connectionString))
             {
-                string query = "SELECT * FROM kamar";
+                string query = "SELECT * FROM kamar where status like 'k'";
                 SqlDataAdapter adapter = new SqlDataAdapter(query, conn);
                 DataTable dt = new DataTable();
                 adapter.Fill(dt);

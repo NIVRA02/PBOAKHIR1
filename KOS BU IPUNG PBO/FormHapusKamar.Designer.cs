@@ -44,9 +44,10 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(26, 373);
+            this.button1.Location = new System.Drawing.Point(29, 466);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(216, 35);
+            this.button1.Size = new System.Drawing.Size(243, 44);
             this.button1.TabIndex = 29;
             this.button1.Text = "BACK\r\n";
             this.button1.UseVisualStyleBackColor = false;
@@ -56,11 +57,13 @@
             // 
             this.txtusername.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(231)))), ((int)(((byte)(233)))));
             this.txtusername.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtusername.Location = new System.Drawing.Point(22, 240);
+            this.txtusername.Location = new System.Drawing.Point(25, 300);
+            this.txtusername.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtusername.Multiline = true;
             this.txtusername.Name = "txtusername";
-            this.txtusername.Size = new System.Drawing.Size(216, 28);
+            this.txtusername.Size = new System.Drawing.Size(243, 35);
             this.txtusername.TabIndex = 28;
+            this.txtusername.TextChanged += new System.EventHandler(this.txtusername_TextChanged);
             // 
             // button4
             // 
@@ -69,45 +72,50 @@
             this.button4.FlatAppearance.BorderSize = 0;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Location = new System.Drawing.Point(26, 303);
+            this.button4.Location = new System.Drawing.Point(29, 379);
+            this.button4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(216, 35);
+            this.button4.Size = new System.Drawing.Size(243, 44);
             this.button4.TabIndex = 27;
             this.button4.Text = "HAPUS KAMAR";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // dataGridView1
             // 
             this.dataGridView1.AllowUserToDeleteRows = false;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(26, 11);
+            this.dataGridView1.Location = new System.Drawing.Point(29, 14);
             this.dataGridView1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 62;
             this.dataGridView1.RowTemplate.Height = 28;
-            this.dataGridView1.Size = new System.Drawing.Size(581, 190);
+            this.dataGridView1.Size = new System.Drawing.Size(654, 238);
             this.dataGridView1.TabIndex = 26;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(22, 217);
+            this.label1.Location = new System.Drawing.Point(25, 271);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(135, 20);
+            this.label1.Size = new System.Drawing.Size(155, 24);
             this.label1.TabIndex = 25;
             this.label1.Text = "Nomor Kamar";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // FormHapusKamar
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(900, 562);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.txtusername);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "FormHapusKamar";
             this.Text = "FormHapusKamar";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

@@ -52,8 +52,9 @@ namespace KOS_BU_IPUNG_PBO
         {
             if (txtusername.Text == "admin" && txtPassword.Text == "admin1234")
             {
+                FormAdmin formAdmin = new FormAdmin();
+                formAdmin.Show();
                 this.Hide();
-                new FrmAdmin1().ShowDialog();
             }
 
             if (txtusername.Text == "" || txtusername.Text == "")

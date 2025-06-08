@@ -21,5 +21,12 @@ namespace KOS_BU_IPUNG_PBO
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            FrmAdmin1 frmAdmin1 = new FrmAdmin1();
+            frmAdmin1.Show();
+            this.Hide();
+        }
     }
 }

@@ -148,8 +148,14 @@
     <EmbeddedResource Include="FormAdminKelola.resx">
       <DependentUpon>FormAdminKelola.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormAdminLihatPenghuni.resx">
+      <DependentUpon>FormAdminLihatPenghuni.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormAdminValidasi.resx">
       <DependentUpon>FormAdminValidasi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormStatistikKos.resx">
+      <DependentUpon>FormStatistikKos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmMain.resx">
       <DependentUpon>frmMain.cs</DependentUpon>

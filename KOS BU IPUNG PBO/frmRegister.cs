@@ -15,7 +15,7 @@ namespace KOS_BU_IPUNG_PBO
 {
     public partial class frmRegister: Form
     {
-        SqlConnection connect = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\NIVRA\OneDrive\Documents\LoginData.mdf;Integrated Security=True;Connect Timeout=30");
+        SqlConnection connect = new SqlConnection(@"Data Source = (LocalDB)\MSSQLLocalDB; AttachDbFilename=C:\Users\LENOVO\Documents\DatabasePBO.mdf;Integrated Security = True; Connect Timeout = 30");
 
         public frmRegister()
         {
@@ -29,7 +29,14 @@ namespace KOS_BU_IPUNG_PBO
 
         private void txtusername_TextChanged(object sender, EventArgs e)
         {
-
+            if (CheckbxShowPas.Checked)
+            {
+                txtPassword.PasswordChar = '\0';
+            }
+            else
+            {
+                txtPassword.PasswordChar = '*';
+            }
         }
 
         private void label2_Click(object sender, EventArgs e)
@@ -48,7 +55,11 @@ namespace KOS_BU_IPUNG_PBO
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (txtEmail.Text == "" || txtusername.Text == ""
+            if (txtusername.Text == "admin")
+            {
+               MessageBox.Show("You cannot register with admin credentials", "Error Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            else if (txtEmail.Text == "" || txtusername.Text == ""
              || txtPassword.Text == "")
             {
                 MessageBox.Show("Please fill all blank fields", "Error Message", MessageBoxButtons.OK, MessageBoxIcon.Error);

@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data;
 using System.Data.SqlClient;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.Rebar;
 
 
 namespace KOS_BU_IPUNG_PBO
@@ -16,7 +17,7 @@ namespace KOS_BU_IPUNG_PBO
 
     public partial class frmLogin: Form
     {
-        SqlConnection connect = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\NIVRA\OneDrive\Documents\LoginData.mdf;Integrated Security=True;Connect Timeout=30");
+        SqlConnection connect = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\LENOVO\Documents\DatabasePBO.mdf;Integrated Security=True;Connect Timeout=30");
 
         public frmLogin()
         {
@@ -49,6 +50,12 @@ namespace KOS_BU_IPUNG_PBO
 
         private void button1_Click(object sender, EventArgs e)
         {
+            if (txtusername.Text == "admin" && txtPassword.Text == "admin1234")
+            {
+                this.Hide();
+                new FrmAdmin1().ShowDialog();
+            }
+
             if (txtusername.Text == "" || txtusername.Text == "")
             {
                 MessageBox.Show("Please fil all blank fields", "Error Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -98,13 +105,25 @@ namespace KOS_BU_IPUNG_PBO
 
         private void txtusername_TextChanged(object sender, EventArgs e)
         {
-
+            
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             txtusername.Text = "";
             txtPassword.Text = "";
+        }
+
+        private void txtPassword_TextChanged(object sender, EventArgs e)
+        {
+            if (CheckbxShowPas.Checked)
+            {
+                txtPassword.PasswordChar = '\0';
+            }
+            else
+            {
+                txtPassword.PasswordChar = '*';
+            }
         }
     }
 }

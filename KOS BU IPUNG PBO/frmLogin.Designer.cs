@@ -47,7 +47,7 @@
             this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(86)))), ((int)(((byte)(174)))));
             this.label6.Location = new System.Drawing.Point(115, 547);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(132, 23);
+            this.label6.Size = new System.Drawing.Size(163, 30);
             this.label6.TabIndex = 16;
             this.label6.Text = "Create Account";
             this.label6.Click += new System.EventHandler(this.label6_Click);
@@ -57,7 +57,7 @@
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(86, 524);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(196, 23);
+            this.label5.Size = new System.Drawing.Size(244, 30);
             this.label5.TabIndex = 17;
             this.label5.Text = "Don\'t Have An Account";
             this.label5.Click += new System.EventHandler(this.label5_Click);
@@ -98,7 +98,7 @@
             this.CheckbxShowPas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.CheckbxShowPas.Location = new System.Drawing.Point(131, 362);
             this.CheckbxShowPas.Name = "CheckbxShowPas";
-            this.CheckbxShowPas.Size = new System.Drawing.Size(151, 27);
+            this.CheckbxShowPas.Size = new System.Drawing.Size(187, 34);
             this.CheckbxShowPas.TabIndex = 13;
             this.CheckbxShowPas.Text = "Show Password";
             this.CheckbxShowPas.UseVisualStyleBackColor = true;
@@ -113,13 +113,14 @@
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.Size = new System.Drawing.Size(216, 28);
             this.txtPassword.TabIndex = 11;
+            this.txtPassword.TextChanged += new System.EventHandler(this.txtPassword_TextChanged);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(62, 291);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(84, 23);
+            this.label3.Size = new System.Drawing.Size(105, 30);
             this.label3.TabIndex = 8;
             this.label3.Text = "Password";
             // 
@@ -139,7 +140,7 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(62, 216);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(89, 23);
+            this.label2.Size = new System.Drawing.Size(110, 30);
             this.label2.TabIndex = 9;
             this.label2.Text = "Username";
             // 
@@ -150,13 +151,13 @@
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(86)))), ((int)(((byte)(174)))));
             this.label1.Location = new System.Drawing.Point(58, 157);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(191, 33);
+            this.label1.Size = new System.Drawing.Size(226, 40);
             this.label1.TabIndex = 6;
             this.label1.Text = "Get Started";
             // 
             // frmLogin
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 23F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 28F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(361, 703);

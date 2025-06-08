@@ -16,5 +16,10 @@ namespace KOS_BU_IPUNG_PBO
         {
             InitializeComponent();
         }
+
+        private void FormAdminKelola_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

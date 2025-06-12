@@ -42,7 +42,7 @@
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(86)))), ((int)(((byte)(174)))));
             this.label1.Location = new System.Drawing.Point(12, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(283, 28);
+            this.label1.Size = new System.Drawing.Size(271, 28);
             this.label1.TabIndex = 0;
             this.label1.Text = "Validasi Pembayaran";
             // 
@@ -126,7 +126,7 @@
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(15, 133);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(104, 20);
+            this.label5.Size = new System.Drawing.Size(105, 20);
             this.label5.TabIndex = 3;
             this.label5.Text = "Tanggal Pesan:";
             // 
@@ -135,7 +135,7 @@
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(15, 100);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(104, 20);
+            this.label4.Size = new System.Drawing.Size(107, 20);
             this.label4.TabIndex = 2;
             this.label4.Text = "Nomor Kamar:";
             // 
@@ -144,7 +144,7 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(15, 67);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(142, 20);
+            this.label3.Size = new System.Drawing.Size(140, 20);
             this.label3.TabIndex = 1;
             this.label3.Text = "Username Pemesan:";
             // 
@@ -153,7 +153,7 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(15, 34);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(99, 20);
+            this.label2.Size = new System.Drawing.Size(105, 20);
             this.label2.TabIndex = 0;
             this.label2.Text = "ID Pemesanan:";
             // 
@@ -218,6 +218,7 @@
             this.Name = "FormAdminValidasi";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Admin: Validasi Pembayaran";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FormAdminValidasi_FormClosing);
             this.Load += new System.EventHandler(this.FormAdminValidasi_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewValidasi)).EndInit();
             this.groupBoxDetail.ResumeLayout(false);

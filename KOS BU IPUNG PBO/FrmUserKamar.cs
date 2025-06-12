@@ -154,6 +154,24 @@ namespace KOS_BU_IPUNG_PBO
         private void FrmUserKamar_Load(object sender, EventArgs e) { }
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e) { }
 
+        private void FrmUserKamar_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (e.CloseReason == CloseReason.UserClosing)
+            {
+                DialogResult result = MessageBox.Show("Apakah Anda yakin ingin keluar dari aplikasi?", "Konfirmasi Keluar", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                if (result == DialogResult.Yes)
+                {
+                    // Mengakhiri sesi sebelum keluar
+                    UserSession.EndSession();
+                    Application.Exit();
+                }
+                else
+                {
+                    e.Cancel = true; // Batalkan penutupan
+                }
+            }
+        }
+
         // Hapus event handler ganda jika ada
         // private void backButton_Click(object sender, EventArgs e) { }
     }

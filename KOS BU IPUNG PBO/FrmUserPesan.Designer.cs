@@ -29,7 +29,7 @@
             this.tb_nama = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.lblDaftarKamarTitle = new System.Windows.Forms.Label();
-            this.btnKembali = new System.Windows.Forms.Button(); // Tombol Kembali didefinisikan di sini
+            this.btnKembali = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvKamar)).BeginInit();
             this.pnlPemesanan.SuspendLayout();
             this.SuspendLayout();
@@ -66,7 +66,7 @@
             this.lblSelectedKamarValue.AutoSize = true;
             this.lblSelectedKamarValue.Location = new System.Drawing.Point(17, 340);
             this.lblSelectedKamarValue.Name = "lblSelectedKamarValue";
-            this.lblSelectedKamarValue.Size = new System.Drawing.Size(95, 17);
+            this.lblSelectedKamarValue.Size = new System.Drawing.Size(85, 16);
             this.lblSelectedKamarValue.TabIndex = 8;
             this.lblSelectedKamarValue.Text = "Belum Dipilih";
             // 
@@ -75,7 +75,7 @@
             this.lblSelectedKamar.AutoSize = true;
             this.lblSelectedKamar.Location = new System.Drawing.Point(17, 312);
             this.lblSelectedKamar.Name = "lblSelectedKamar";
-            this.lblSelectedKamar.Size = new System.Drawing.Size(107, 17);
+            this.lblSelectedKamar.Size = new System.Drawing.Size(89, 16);
             this.lblSelectedKamar.TabIndex = 7;
             this.lblSelectedKamar.Text = "Kamar Dipilih:";
             // 
@@ -102,7 +102,7 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(17, 189);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(82, 17);
+            this.label3.Size = new System.Drawing.Size(79, 16);
             this.label3.TabIndex = 4;
             this.label3.Text = "Alamat Asal";
             // 
@@ -118,7 +118,7 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(17, 109);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(103, 17);
+            this.label2.Size = new System.Drawing.Size(102, 16);
             this.label2.TabIndex = 2;
             this.label2.Text = "Nomor Telepon";
             // 
@@ -134,7 +134,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(17, 29);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(100, 17);
+            this.label1.Size = new System.Drawing.Size(100, 16);
             this.label1.TabIndex = 0;
             this.label1.Text = "Nama Lengkap";
             // 
@@ -143,7 +143,7 @@
             this.lblDaftarKamarTitle.AutoSize = true;
             this.lblDaftarKamarTitle.Location = new System.Drawing.Point(27, 80);
             this.lblDaftarKamarTitle.Name = "lblDaftarKamarTitle";
-            this.lblDaftarKamarTitle.Size = new System.Drawing.Size(155, 17);
+            this.lblDaftarKamarTitle.Size = new System.Drawing.Size(143, 16);
             this.lblDaftarKamarTitle.TabIndex = 2;
             this.lblDaftarKamarTitle.Text = "Daftar Kamar Tersedia";
             // 
@@ -168,6 +168,7 @@
             this.Controls.Add(this.dgvKamar);
             this.Name = "FrmUserPesan";
             this.Text = "Pesan Kamar";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FrmUserPesan_FormClosing);
             ((System.ComponentModel.ISupportInitialize)(this.dgvKamar)).EndInit();
             this.pnlPemesanan.ResumeLayout(false);
             this.pnlPemesanan.PerformLayout();

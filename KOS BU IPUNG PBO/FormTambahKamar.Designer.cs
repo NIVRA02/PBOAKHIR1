@@ -42,12 +42,12 @@
             // 
             this.dataGridKamarTambah.AllowUserToDeleteRows = false;
             this.dataGridKamarTambah.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridKamarTambah.Location = new System.Drawing.Point(18, 51);
+            this.dataGridKamarTambah.Location = new System.Drawing.Point(16, 41);
             this.dataGridKamarTambah.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dataGridKamarTambah.Name = "dataGridKamarTambah";
             this.dataGridKamarTambah.RowHeadersWidth = 62;
             this.dataGridKamarTambah.RowTemplate.Height = 28;
-            this.dataGridKamarTambah.Size = new System.Drawing.Size(654, 238);
+            this.dataGridKamarTambah.Size = new System.Drawing.Size(581, 190);
             this.dataGridKamarTambah.TabIndex = 4;
             this.dataGridKamarTambah.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
@@ -55,9 +55,9 @@
             // 
             this.labelNomorKamar.AutoSize = true;
             this.labelNomorKamar.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelNomorKamar.Location = new System.Drawing.Point(14, 309);
+            this.labelNomorKamar.Location = new System.Drawing.Point(12, 247);
             this.labelNomorKamar.Name = "labelNomorKamar";
-            this.labelNomorKamar.Size = new System.Drawing.Size(155, 24);
+            this.labelNomorKamar.Size = new System.Drawing.Size(135, 20);
             this.labelNomorKamar.TabIndex = 3;
             this.labelNomorKamar.Text = "Nomor Kamar";
             this.labelNomorKamar.Click += new System.EventHandler(this.label1_Click);
@@ -69,10 +69,9 @@
             this.buttonTambah.FlatAppearance.BorderSize = 0;
             this.buttonTambah.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonTambah.ForeColor = System.Drawing.Color.White;
-            this.buttonTambah.Location = new System.Drawing.Point(18, 416);
-            this.buttonTambah.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.buttonTambah.Location = new System.Drawing.Point(16, 333);
             this.buttonTambah.Name = "buttonTambah";
-            this.buttonTambah.Size = new System.Drawing.Size(243, 44);
+            this.buttonTambah.Size = new System.Drawing.Size(216, 35);
             this.buttonTambah.TabIndex = 22;
             this.buttonTambah.Text = "TAMBAH KAMAR";
             this.buttonTambah.UseVisualStyleBackColor = false;
@@ -82,11 +81,10 @@
             // 
             this.InputNomorKamar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(231)))), ((int)(((byte)(233)))));
             this.InputNomorKamar.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.InputNomorKamar.Location = new System.Drawing.Point(14, 338);
-            this.InputNomorKamar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.InputNomorKamar.Location = new System.Drawing.Point(12, 270);
             this.InputNomorKamar.Multiline = true;
             this.InputNomorKamar.Name = "InputNomorKamar";
-            this.InputNomorKamar.Size = new System.Drawing.Size(243, 35);
+            this.InputNomorKamar.Size = new System.Drawing.Size(216, 28);
             this.InputNomorKamar.TabIndex = 23;
             this.InputNomorKamar.TextChanged += new System.EventHandler(this.txtusername_TextChanged);
             // 
@@ -94,9 +92,9 @@
             // 
             this.labelHargaKamar.AutoSize = true;
             this.labelHargaKamar.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelHargaKamar.Location = new System.Drawing.Point(296, 309);
+            this.labelHargaKamar.Location = new System.Drawing.Point(263, 247);
             this.labelHargaKamar.Name = "labelHargaKamar";
-            this.labelHargaKamar.Size = new System.Drawing.Size(146, 24);
+            this.labelHargaKamar.Size = new System.Drawing.Size(129, 20);
             this.labelHargaKamar.TabIndex = 3;
             this.labelHargaKamar.Text = "Harga Kamar";
             // 
@@ -104,11 +102,10 @@
             // 
             this.InputHargaKamar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(231)))), ((int)(((byte)(233)))));
             this.InputHargaKamar.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.InputHargaKamar.Location = new System.Drawing.Point(300, 338);
-            this.InputHargaKamar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.InputHargaKamar.Location = new System.Drawing.Point(267, 270);
             this.InputHargaKamar.Multiline = true;
             this.InputHargaKamar.Name = "InputHargaKamar";
-            this.InputHargaKamar.Size = new System.Drawing.Size(243, 35);
+            this.InputHargaKamar.Size = new System.Drawing.Size(216, 28);
             this.InputHargaKamar.TabIndex = 23;
             this.InputHargaKamar.TextChanged += new System.EventHandler(this.txtusername_TextChanged);
             // 
@@ -120,10 +117,9 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(18, 504);
-            this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button1.Location = new System.Drawing.Point(16, 403);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(243, 44);
+            this.button1.Size = new System.Drawing.Size(216, 35);
             this.button1.TabIndex = 24;
             this.button1.Text = "BACK\r\n";
             this.button1.UseVisualStyleBackColor = false;
@@ -131,9 +127,9 @@
             // 
             // FormTambahKamar
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(704, 562);
+            this.ClientSize = new System.Drawing.Size(626, 450);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.InputHargaKamar);
             this.Controls.Add(this.InputNomorKamar);
@@ -141,9 +137,9 @@
             this.Controls.Add(this.dataGridKamarTambah);
             this.Controls.Add(this.labelHargaKamar);
             this.Controls.Add(this.labelNomorKamar);
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "FormTambahKamar";
             this.Text = "FormTambahKamar";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FormTambahKamar_FormClosing);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridKamarTambah)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

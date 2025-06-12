@@ -120,6 +120,7 @@
             this.Controls.Add(this.button1);
             this.Name = "FormAdminKelola";
             this.Text = "FormAdminKelola";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FormAdminKelola_FormClosing);
             this.Load += new System.EventHandler(this.FormAdminKelola_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

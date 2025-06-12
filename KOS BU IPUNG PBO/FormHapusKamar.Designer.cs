@@ -44,10 +44,9 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(29, 466);
-            this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button1.Location = new System.Drawing.Point(26, 373);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(243, 44);
+            this.button1.Size = new System.Drawing.Size(216, 35);
             this.button1.TabIndex = 29;
             this.button1.Text = "BACK\r\n";
             this.button1.UseVisualStyleBackColor = false;
@@ -57,11 +56,10 @@
             // 
             this.InputNomorHapus.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(231)))), ((int)(((byte)(233)))));
             this.InputNomorHapus.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.InputNomorHapus.Location = new System.Drawing.Point(25, 300);
-            this.InputNomorHapus.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.InputNomorHapus.Location = new System.Drawing.Point(22, 240);
             this.InputNomorHapus.Multiline = true;
             this.InputNomorHapus.Name = "InputNomorHapus";
-            this.InputNomorHapus.Size = new System.Drawing.Size(243, 35);
+            this.InputNomorHapus.Size = new System.Drawing.Size(216, 28);
             this.InputNomorHapus.TabIndex = 28;
             this.InputNomorHapus.TextChanged += new System.EventHandler(this.txtusername_TextChanged);
             // 
@@ -72,10 +70,9 @@
             this.buttonHapusKamar.FlatAppearance.BorderSize = 0;
             this.buttonHapusKamar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonHapusKamar.ForeColor = System.Drawing.Color.White;
-            this.buttonHapusKamar.Location = new System.Drawing.Point(29, 379);
-            this.buttonHapusKamar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.buttonHapusKamar.Location = new System.Drawing.Point(26, 303);
             this.buttonHapusKamar.Name = "buttonHapusKamar";
-            this.buttonHapusKamar.Size = new System.Drawing.Size(243, 44);
+            this.buttonHapusKamar.Size = new System.Drawing.Size(216, 35);
             this.buttonHapusKamar.TabIndex = 27;
             this.buttonHapusKamar.Text = "HAPUS KAMAR";
             this.buttonHapusKamar.UseVisualStyleBackColor = false;
@@ -85,12 +82,12 @@
             // 
             this.dataGridHapusKamar.AllowUserToDeleteRows = false;
             this.dataGridHapusKamar.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridHapusKamar.Location = new System.Drawing.Point(29, 14);
+            this.dataGridHapusKamar.Location = new System.Drawing.Point(26, 11);
             this.dataGridHapusKamar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dataGridHapusKamar.Name = "dataGridHapusKamar";
             this.dataGridHapusKamar.RowHeadersWidth = 62;
             this.dataGridHapusKamar.RowTemplate.Height = 28;
-            this.dataGridHapusKamar.Size = new System.Drawing.Size(654, 238);
+            this.dataGridHapusKamar.Size = new System.Drawing.Size(581, 190);
             this.dataGridHapusKamar.TabIndex = 26;
             this.dataGridHapusKamar.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
@@ -98,26 +95,26 @@
             // 
             this.labelNomor.AutoSize = true;
             this.labelNomor.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelNomor.Location = new System.Drawing.Point(25, 271);
+            this.labelNomor.Location = new System.Drawing.Point(22, 217);
             this.labelNomor.Name = "labelNomor";
-            this.labelNomor.Size = new System.Drawing.Size(155, 24);
+            this.labelNomor.Size = new System.Drawing.Size(135, 20);
             this.labelNomor.TabIndex = 25;
             this.labelNomor.Text = "Nomor Kamar";
             this.labelNomor.Click += new System.EventHandler(this.label1_Click);
             // 
             // FormHapusKamar
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(900, 562);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.InputNomorHapus);
             this.Controls.Add(this.buttonHapusKamar);
             this.Controls.Add(this.dataGridHapusKamar);
             this.Controls.Add(this.labelNomor);
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "FormHapusKamar";
             this.Text = "FormHapusKamar";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FormHapusKamar_FormClosing);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridHapusKamar)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

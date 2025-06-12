@@ -16,5 +16,13 @@ namespace KOS_BU_IPUNG_PBO
         {
             InitializeComponent();
         }
+
+        private void main_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (e.CloseReason == CloseReason.UserClosing)
+            {
+                Application.Exit();
+            }
+        }
     }
 }

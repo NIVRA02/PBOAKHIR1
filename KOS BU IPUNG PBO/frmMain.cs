@@ -37,7 +37,7 @@ namespace KOS_BU_IPUNG_PBO
         private void button3_Click(object sender, EventArgs e)
         {
             this.Hide();
-            new FrmUserPesan().ShowDialog();
+            new FrmUserStatus().ShowDialog();
         }
 
         private void frmMain_FormClosing(object sender, FormClosingEventArgs e)

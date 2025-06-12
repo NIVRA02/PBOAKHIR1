@@ -87,7 +87,7 @@ namespace KOS_BU_IPUNG_PBO
                 {
                     cmd.Parameters.AddWithValue("@nomor", InputNomorKamar.Text);
                     cmd.Parameters.AddWithValue("@harga", InputHargaKamar.Text);
-                    cmd.Parameters.AddWithValue("@status", "T");
+                    cmd.Parameters.AddWithValue("@status", "K");
 
                     try
                     {

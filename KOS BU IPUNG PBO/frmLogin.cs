@@ -71,7 +71,7 @@ namespace KOS_BU_IPUNG_PBO
                     {
                         connect.Open();
 
-                        String selectData = "SELECT * FROM admin WHERE username = @username AND passowrd = @pass";
+                        String selectData = "SELECT id, username FROM admin WHERE username = @username AND passowrd = @pass";
                         using (SqlCommand cmd = new SqlCommand(selectData, connect))
                         {
                             cmd.Parameters.AddWithValue("@username", txtusername.Text);
@@ -83,7 +83,9 @@ namespace KOS_BU_IPUNG_PBO
                             if (table.Rows.Count >= 1)
                             {
                                 MessageBox.Show("Logged In successfully", "Information Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
+                                int userId = Convert.ToInt32(table.Rows[0]["id"]);
+                                string userName = table.Rows[0]["username"].ToString();
+                                UserSession.StartSession(userId, userName);
                                 frmMain mForm = new frmMain();
                                 mForm.Show();
                                 this.Hide();

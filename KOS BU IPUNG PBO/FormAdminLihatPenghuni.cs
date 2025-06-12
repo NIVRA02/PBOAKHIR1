@@ -50,5 +50,20 @@ namespace KOS_BU_IPUNG_PBO
             FormAdmin formAdmin = new FormAdmin();
             formAdmin.Show();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtSearch_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnSearch_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

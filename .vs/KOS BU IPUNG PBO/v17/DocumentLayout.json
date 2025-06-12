@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|c:\\users\\samuel gurning\\source\\repos\\pboakhir1\\kos bu ipung pbo\\formstatistikkos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|solutionrelative:kos bu ipung pbo\\formstatistikkos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\kos bu ipung pbo\\formstatistikkos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|solutionrelative:kos bu ipung pbo\\formstatistikkos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|c:\\users\\samuel gurning\\source\\repos\\pboakhir1\\kos bu ipung pbo\\formstatistikkos.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|solutionrelative:kos bu ipung pbo\\formstatistikkos.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|c:\\users\\samuel gurning\\source\\repos\\pboakhir1\\kos bu ipung pbo\\formadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|solutionrelative:kos bu ipung pbo\\formadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
@@ -19,7 +31,7 @@
       "RelativeMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|solutionrelative:kos bu ipung pbo\\formadminvalidasi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|c:\\users\\samuel gurning\\source\\repos\\pboakhir1\\kos bu ipung pbo\\formadminvalidasi.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\kos bu ipung pbo\\formadminvalidasi.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|solutionrelative:kos bu ipung pbo\\formadminvalidasi.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -27,7 +39,7 @@
       "RelativeMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|solutionrelative:kos bu ipung pbo\\formadminvalidasi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|c:\\users\\samuel gurning\\source\\repos\\pboakhir1\\kos bu ipung pbo\\formadminvalidasi.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "AbsoluteMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\kos bu ipung pbo\\formadminvalidasi.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
       "RelativeMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|solutionrelative:kos bu ipung pbo\\formadminvalidasi.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
     },
     {
@@ -41,10 +53,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\kos bu ipung pbo\\formhapuskamar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|solutionrelative:kos bu ipung pbo\\formhapuskamar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\kos bu ipung pbo\\formstatistikkos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|solutionrelative:kos bu ipung pbo\\formstatistikkos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\kos bu ipung pbo\\formeditkamar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -150,7 +158,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 300,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -182,7 +190,57 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormStatistikKos.cs",
+              "DocumentMoniker": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FormStatistikKos.cs",
+              "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\FormStatistikKos.cs",
+              "ToolTip": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FormStatistikKos.cs",
+              "RelativeToolTip": "KOS BU IPUNG PBO\\FormStatistikKos.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAIwE4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T16:39:53.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "FormStatistikKos.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FormStatistikKos.Designer.cs",
+              "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\FormStatistikKos.Designer.cs",
+              "ToolTip": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FormStatistikKos.Designer.cs",
+              "RelativeToolTip": "KOS BU IPUNG PBO\\FormStatistikKos.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T16:39:22.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormStatistikKos.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FormStatistikKos.cs",
+              "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\FormStatistikKos.cs",
+              "ToolTip": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FormStatistikKos.cs [Design]",
+              "RelativeToolTip": "KOS BU IPUNG PBO\\FormStatistikKos.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T18:12:20.929Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FormAdminKelola.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FormAdminKelola.cs",
+              "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\FormAdminKelola.cs",
+              "ToolTip": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FormAdminKelola.cs [Design]",
+              "RelativeToolTip": "KOS BU IPUNG PBO\\FormAdminKelola.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T17:49:10.644Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "FormAdminLihatPenghuni.cs",
               "DocumentMoniker": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FormAdminLihatPenghuni.cs",
               "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\FormAdminLihatPenghuni.cs",
@@ -195,19 +253,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FormAdminKelola.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FormAdminKelola.cs",
-              "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\FormAdminKelola.cs",
-              "ToolTip": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FormAdminKelola.cs [Design]",
-              "RelativeToolTip": "KOS BU IPUNG PBO\\FormAdminKelola.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-08T17:49:10.644Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "FormAdmin.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FormAdmin.cs",
               "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\FormAdmin.cs",
@@ -219,7 +265,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "FormAdminValidasi.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FormAdminValidasi.cs",
               "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\FormAdminValidasi.cs",
@@ -231,7 +277,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "FormAdminValidasi.cs",
               "DocumentMoniker": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FormAdminValidasi.cs",
               "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\FormAdminValidasi.cs",
@@ -244,7 +290,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "FormAdminValidasi.Designer.cs",
               "DocumentMoniker": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FormAdminValidasi.Designer.cs",
               "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\FormAdminValidasi.Designer.cs",
@@ -257,7 +303,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "FormAdminValidasi.resx",
               "DocumentMoniker": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FormAdminValidasi.resx",
               "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\FormAdminValidasi.resx",
@@ -269,7 +315,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "FormAdminKelola.cs",
               "DocumentMoniker": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FormAdminKelola.cs",
               "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\FormAdminKelola.cs",
@@ -282,7 +328,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "FormAdminLihatPenghuni.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FormAdminLihatPenghuni.cs",
               "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\FormAdminLihatPenghuni.cs",
@@ -294,7 +340,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "FormHapusKamar.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FormHapusKamar.cs",
               "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\FormHapusKamar.cs",
@@ -306,19 +352,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "FormStatistikKos.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FormStatistikKos.cs",
-              "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\FormStatistikKos.cs",
-              "ToolTip": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FormStatistikKos.cs [Design]",
-              "RelativeToolTip": "KOS BU IPUNG PBO\\FormStatistikKos.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-08T18:12:20.929Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "FormEditKamar.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FormEditKamar.cs",
               "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\FormEditKamar.cs",
@@ -330,7 +364,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "FrmUserKamar.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FrmUserKamar.cs",
               "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\FrmUserKamar.cs",
@@ -342,7 +376,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "FormEditKamar.cs",
               "DocumentMoniker": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FormEditKamar.cs",
               "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\FormEditKamar.cs",
@@ -355,7 +389,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "FormHapusKamar.cs",
               "DocumentMoniker": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FormHapusKamar.cs",
               "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\FormHapusKamar.cs",
@@ -368,7 +402,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "FormTambahKamar.cs",
               "DocumentMoniker": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FormTambahKamar.cs",
               "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\FormTambahKamar.cs",
@@ -381,7 +415,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "FormTambahKamar.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FormTambahKamar.cs",
               "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\FormTambahKamar.cs",
@@ -393,7 +427,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "FrmAdmin1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FrmAdmin1.cs",
               "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\FrmAdmin1.cs",
@@ -405,7 +439,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "frmLogin.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\frmLogin.cs",
               "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\frmLogin.cs",
@@ -417,7 +451,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "FrmUserStatus.cs",
               "DocumentMoniker": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FrmUserStatus.cs",
               "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\FrmUserStatus.cs",
@@ -430,7 +464,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "FrmUserStatus.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FrmUserStatus.cs",
               "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\FrmUserStatus.cs",
@@ -442,7 +476,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "FrmUserPesan.cs",
               "DocumentMoniker": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FrmUserPesan.cs",
               "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\FrmUserPesan.cs",
@@ -455,7 +489,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "FrmUserPesan.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FrmUserPesan.cs",
               "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\FrmUserPesan.cs",
@@ -467,7 +501,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "frmMain.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\frmMain.cs",
               "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\frmMain.cs",
@@ -479,7 +513,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "FormAdmin.cs",
               "DocumentMoniker": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FormAdmin.cs",
               "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\FormAdmin.cs",
@@ -487,12 +521,11 @@
               "RelativeToolTip": "KOS BU IPUNG PBO\\FormAdmin.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAADEAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-08T18:24:20.062Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-08T18:24:20.062Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "FrmUserKamar.cs",
               "DocumentMoniker": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FrmUserKamar.cs",
               "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\FrmUserKamar.cs",
@@ -505,7 +538,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 28,
               "Title": "frmRegister.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\frmRegister.cs",
               "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\frmRegister.cs",
@@ -517,7 +550,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 29,
               "Title": "frmLogin.cs",
               "DocumentMoniker": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\frmLogin.cs",
               "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\frmLogin.cs",
@@ -530,7 +563,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 30,
               "Title": "frmRegister.cs",
               "DocumentMoniker": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\frmRegister.cs",
               "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\frmRegister.cs",
@@ -543,18 +576,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 31,
               "Title": "SQLQuery4.sql",
               "DocumentMoniker": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\SQLQuery4.sql",
               "RelativeDocumentMoniker": "SQLQuery4.sql",
-              "ToolTip": "SQLQuery4.sql",
+              "ToolTip": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\SQLQuery4.sql",
+              "RelativeToolTip": "SQLQuery4.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
               "WhenOpened": "2025-06-08T19:28:41.389Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 32,
               "Title": "FrmUserKamar.Designer.cs",
               "DocumentMoniker": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FrmUserKamar.Designer.cs",
               "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\FrmUserKamar.Designer.cs",
@@ -567,29 +601,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 33,
               "Title": "SQLQuery3.sql",
               "DocumentMoniker": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\SQLQuery3.sql",
               "RelativeDocumentMoniker": "SQLQuery3.sql",
-              "ToolTip": "SQLQuery3.sql",
+              "ToolTip": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\SQLQuery3.sql",
+              "RelativeToolTip": "SQLQuery3.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
               "WhenOpened": "2025-06-08T16:33:13.362Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 34,
               "Title": "SQLQuery2.sql",
               "DocumentMoniker": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\SQLQuery2.sql",
               "RelativeDocumentMoniker": "SQLQuery2.sql",
-              "ToolTip": "SQLQuery2.sql",
+              "ToolTip": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\SQLQuery2.sql",
+              "RelativeToolTip": "SQLQuery2.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
               "WhenOpened": "2025-06-08T17:55:54.559Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 35,
               "Title": "main.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\main.cs",
               "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\main.cs",
@@ -601,14 +637,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 36,
               "Title": "frmMain.resx",
               "DocumentMoniker": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\frmMain.resx",
               "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\frmMain.resx",
               "ToolTip": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\frmMain.resx",
               "RelativeToolTip": "KOS BU IPUNG PBO\\frmMain.resx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2025-06-07T06:45:38.186Z"
+              "WhenOpened": "2025-06-07T06:45:38.186Z",
+              "EditorCaption": ""
             }
           ]
         },

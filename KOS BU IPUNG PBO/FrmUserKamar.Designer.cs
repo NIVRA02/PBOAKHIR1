@@ -84,7 +84,6 @@
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "FrmUserKamar";
             this.Text = "Menu User : Data Kamar";
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FrmUserKamar_FormClosing);
             this.Load += new System.EventHandler(this.FrmUserKamar_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);

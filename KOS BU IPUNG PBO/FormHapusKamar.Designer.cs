@@ -114,7 +114,6 @@
             this.Controls.Add(this.labelNomor);
             this.Name = "FormHapusKamar";
             this.Text = "FormHapusKamar";
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FormHapusKamar_FormClosing);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridHapusKamar)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

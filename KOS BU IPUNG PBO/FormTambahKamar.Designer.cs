@@ -139,7 +139,6 @@
             this.Controls.Add(this.labelNomorKamar);
             this.Name = "FormTambahKamar";
             this.Text = "FormTambahKamar";
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FormTambahKamar_FormClosing);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridKamarTambah)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

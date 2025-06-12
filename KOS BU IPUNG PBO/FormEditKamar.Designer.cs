@@ -190,7 +190,6 @@
             this.Controls.Add(this.labelNomorLama);
             this.Name = "FormEditKamar";
             this.Text = "FormEditKamar";
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FormEditKamar_FormClosing);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridEditKamar)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

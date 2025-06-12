@@ -71,7 +71,6 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "FormAdminLihatPenghuni";
             this.Text = "FormAdminLihatPenghuni";
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FormAdminLihatPenghuni_FormClosing);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 

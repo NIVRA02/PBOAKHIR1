@@ -218,7 +218,6 @@
             this.Name = "FormAdminValidasi";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Admin: Validasi Pembayaran";
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FormAdminValidasi_FormClosing);
             this.Load += new System.EventHandler(this.FormAdminValidasi_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewValidasi)).EndInit();
             this.groupBoxDetail.ResumeLayout(false);

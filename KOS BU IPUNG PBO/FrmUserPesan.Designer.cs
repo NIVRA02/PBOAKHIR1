@@ -168,7 +168,6 @@
             this.Controls.Add(this.dgvKamar);
             this.Name = "FrmUserPesan";
             this.Text = "Pesan Kamar";
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FrmUserPesan_FormClosing);
             ((System.ComponentModel.ISupportInitialize)(this.dgvKamar)).EndInit();
             this.pnlPemesanan.ResumeLayout(false);
             this.pnlPemesanan.PerformLayout();

@@ -49,8 +49,6 @@ namespace KOS_BU_IPUNG_PBO
 
         }
 
-        // Di dalam file: frmLogin.cs
-
         private void button1_Click(object sender, EventArgs e)
         {
             if (txtusername.Text == "admin" && txtPassword.Text == "admin1234")
@@ -60,56 +58,50 @@ namespace KOS_BU_IPUNG_PBO
                 this.Hide();
             }
 
-            else if (string.IsNullOrWhiteSpace(txtusername.Text) || string.IsNullOrWhiteSpace(txtPassword.Text))
+            else if (txtusername.Text == "" || txtusername.Text == "")
             {
-                MessageBox.Show("Harap isi Username dan Password.", "Input Tidak Lengkap", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                return;
+                MessageBox.Show("Please fil all blank fields", "Error Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-
-            string connString = ConfigurationManager.ConnectionStrings["KOS_BU_IPUNG_PBO.Properties.Settings.DatabasePBOConnectionString"].ConnectionString;
-            using (SqlConnection connect = new SqlConnection(connString))
+            else
             {
-                try
+                string connString = ConfigurationManager.ConnectionStrings["KOS_BU_IPUNG_PBO.Properties.Settings.DatabasePBOConnectionString"].ConnectionString;
+                using (SqlConnection connect = new SqlConnection(connString))
                 {
-                    connect.Open();
-                    string query = "SELECT * FROM admin WHERE username = @user AND passowrd = @pass";
-                    using (SqlCommand cmd = new SqlCommand(query, connect))
+                    try
                     {
-                        cmd.Parameters.AddWithValue("@user", txtusername.Text.Trim());
-                        cmd.Parameters.AddWithValue("@pass", txtPassword.Text.Trim());
+                        connect.Open();
 
-                        SqlDataAdapter adapter = new SqlDataAdapter(cmd);
-                        DataTable table = new DataTable();
-                        adapter.Fill(table);
-
-                        if (table.Rows.Count > 0)
+                        String selectData = "SELECT * FROM admin WHERE username = @username AND passowrd = @pass";
+                        using (SqlCommand cmd = new SqlCommand(selectData, connect))
                         {
-                            MessageBox.Show("Login berhasil!", "Informasi", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            cmd.Parameters.AddWithValue("@username", txtusername.Text);
+                            cmd.Parameters.AddWithValue("@pass", txtPassword.Text);
+                            SqlDataAdapter adapter = new SqlDataAdapter(cmd);
+                            DataTable table = new DataTable();
+                            adapter.Fill(table);
 
-                            // --- BARIS PENTING: Memulai Sesi Pengguna ---
-                            UserSession.StartSession(txtusername.Text.Trim());
-                            // ---------------------------------------------
-
-                            // Arahkan ke form yang sesuai
-                            if (txtusername.Text.Trim().ToLower() == "admin")
+                            if (table.Rows.Count >= 1)
                             {
-                                new FormAdmin().Show();
+                                MessageBox.Show("Logged In successfully", "Information Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                                frmMain mForm = new frmMain();
+                                mForm.Show();
+                                this.Hide();
                             }
                             else
                             {
-                                new frmMain().Show();
+                                MessageBox.Show("Incorrect Username/Password", "Error Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
                             }
-                            this.Hide();
-                        }
-                        else
-                        {
-                            MessageBox.Show("Username atau Password salah.", "Login Gagal", MessageBoxButtons.OK, MessageBoxIcon.Error);
                         }
                     }
-                }
-                catch (Exception ex)
-                {
-                    MessageBox.Show("Koneksi database gagal: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show("Error Connecting: " + ex, "Error Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                    finally
+                    {
+                        connect.Close();
+                    }
                 }
             }
         }
@@ -145,24 +137,6 @@ namespace KOS_BU_IPUNG_PBO
         private void label1_Click(object sender, EventArgs e)
         {
 
-        }
-
-        private void frmLogin_FormClosing(object sender, FormClosingEventArgs e)
-        {
-            if (e.CloseReason == CloseReason.UserClosing)
-            {
-                DialogResult result = MessageBox.Show("Apakah Anda yakin ingin keluar dari aplikasi?", "Konfirmasi Keluar", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-                if (result == DialogResult.Yes)
-                {
-                    // Mengakhiri sesi sebelum keluar
-                    UserSession.EndSession();
-                    Application.Exit();
-                }
-                else
-                {
-                    e.Cancel = true; // Batalkan penutupan
-                }
-            }
         }
     }
 }

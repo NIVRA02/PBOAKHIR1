@@ -42,7 +42,7 @@
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(86)))), ((int)(((byte)(174)))));
             this.label1.Location = new System.Drawing.Point(118, 52);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(94, 33);
+            this.label1.Size = new System.Drawing.Size(111, 40);
             this.label1.TabIndex = 7;
             this.label1.Text = "Menu";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -96,7 +96,6 @@
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "frmMain";
             this.Text = "Menu User";
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmMain_FormClosing);
             this.ResumeLayout(false);
             this.PerformLayout();
 

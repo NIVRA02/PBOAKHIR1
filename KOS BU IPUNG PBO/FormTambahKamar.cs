@@ -124,10 +124,5 @@ namespace KOS_BU_IPUNG_PBO
             }
 
         }
-
-        private void FormTambahKamar_FormClosing(object sender, FormClosingEventArgs e)
-        {
-
-        }
     }
 }

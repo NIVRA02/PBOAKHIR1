@@ -120,7 +120,6 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "FormAdmin";
             this.Text = "FormAdmin";
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FormAdmin_FormClosing);
             this.ResumeLayout(false);
             this.PerformLayout();
 

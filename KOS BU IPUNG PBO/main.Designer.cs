@@ -28,18 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.SuspendLayout();
-            // 
-            // main
-            // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.components = new System.ComponentModel.Container();
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Name = "main";
             this.Text = "main";
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.main_FormClosing);
-            this.ResumeLayout(false);
-
         }
 
         #endregion

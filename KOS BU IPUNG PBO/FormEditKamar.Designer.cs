@@ -50,9 +50,10 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(12, 403);
+            this.button1.Location = new System.Drawing.Point(14, 504);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(216, 35);
+            this.button1.Size = new System.Drawing.Size(243, 44);
             this.button1.TabIndex = 34;
             this.button1.Text = "BACK\r\n";
             this.button1.UseVisualStyleBackColor = false;
@@ -62,10 +63,11 @@
             // 
             this.InputNomorLama.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(231)))), ((int)(((byte)(233)))));
             this.InputNomorLama.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.InputNomorLama.Location = new System.Drawing.Point(8, 240);
+            this.InputNomorLama.Location = new System.Drawing.Point(9, 300);
+            this.InputNomorLama.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.InputNomorLama.Multiline = true;
             this.InputNomorLama.Name = "InputNomorLama";
-            this.InputNomorLama.Size = new System.Drawing.Size(216, 28);
+            this.InputNomorLama.Size = new System.Drawing.Size(243, 35);
             this.InputNomorLama.TabIndex = 33;
             this.InputNomorLama.TextChanged += new System.EventHandler(this.txtusername_TextChanged);
             // 
@@ -76,9 +78,10 @@
             this.buttonEditKamar.FlatAppearance.BorderSize = 0;
             this.buttonEditKamar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonEditKamar.ForeColor = System.Drawing.Color.White;
-            this.buttonEditKamar.Location = new System.Drawing.Point(12, 350);
+            this.buttonEditKamar.Location = new System.Drawing.Point(14, 438);
+            this.buttonEditKamar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.buttonEditKamar.Name = "buttonEditKamar";
-            this.buttonEditKamar.Size = new System.Drawing.Size(216, 35);
+            this.buttonEditKamar.Size = new System.Drawing.Size(243, 44);
             this.buttonEditKamar.TabIndex = 32;
             this.buttonEditKamar.Text = "EDIT KAMAR";
             this.buttonEditKamar.UseVisualStyleBackColor = false;
@@ -88,12 +91,12 @@
             // 
             this.dataGridEditKamar.AllowUserToDeleteRows = false;
             this.dataGridEditKamar.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridEditKamar.Location = new System.Drawing.Point(12, 11);
+            this.dataGridEditKamar.Location = new System.Drawing.Point(14, 14);
             this.dataGridEditKamar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dataGridEditKamar.Name = "dataGridEditKamar";
             this.dataGridEditKamar.RowHeadersWidth = 62;
             this.dataGridEditKamar.RowTemplate.Height = 28;
-            this.dataGridEditKamar.Size = new System.Drawing.Size(581, 190);
+            this.dataGridEditKamar.Size = new System.Drawing.Size(654, 238);
             this.dataGridEditKamar.TabIndex = 31;
             this.dataGridEditKamar.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
@@ -101,9 +104,9 @@
             // 
             this.labelNomorLama.AutoSize = true;
             this.labelNomorLama.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelNomorLama.Location = new System.Drawing.Point(8, 217);
+            this.labelNomorLama.Location = new System.Drawing.Point(9, 271);
             this.labelNomorLama.Name = "labelNomorLama";
-            this.labelNomorLama.Size = new System.Drawing.Size(135, 20);
+            this.labelNomorLama.Size = new System.Drawing.Size(155, 24);
             this.labelNomorLama.TabIndex = 30;
             this.labelNomorLama.Text = "Nomor Kamar";
             this.labelNomorLama.Click += new System.EventHandler(this.label1_Click);
@@ -112,9 +115,9 @@
             // 
             this.labelHargaLama.AutoSize = true;
             this.labelHargaLama.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelHargaLama.Location = new System.Drawing.Point(8, 282);
+            this.labelHargaLama.Location = new System.Drawing.Point(9, 352);
             this.labelHargaLama.Name = "labelHargaLama";
-            this.labelHargaLama.Size = new System.Drawing.Size(129, 20);
+            this.labelHargaLama.Size = new System.Drawing.Size(146, 24);
             this.labelHargaLama.TabIndex = 30;
             this.labelHargaLama.Text = "Harga Kamar";
             // 
@@ -122,10 +125,11 @@
             // 
             this.InputHargaLama.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(231)))), ((int)(((byte)(233)))));
             this.InputHargaLama.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.InputHargaLama.Location = new System.Drawing.Point(8, 305);
+            this.InputHargaLama.Location = new System.Drawing.Point(9, 381);
+            this.InputHargaLama.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.InputHargaLama.Multiline = true;
             this.InputHargaLama.Name = "InputHargaLama";
-            this.InputHargaLama.Size = new System.Drawing.Size(216, 28);
+            this.InputHargaLama.Size = new System.Drawing.Size(243, 35);
             this.InputHargaLama.TabIndex = 33;
             this.InputHargaLama.TextChanged += new System.EventHandler(this.txtusername_TextChanged);
             // 
@@ -133,9 +137,9 @@
             // 
             this.labelNomorBaru.AutoSize = true;
             this.labelNomorBaru.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelNomorBaru.Location = new System.Drawing.Point(297, 217);
+            this.labelNomorBaru.Location = new System.Drawing.Point(334, 271);
             this.labelNomorBaru.Name = "labelNomorBaru";
-            this.labelNomorBaru.Size = new System.Drawing.Size(186, 20);
+            this.labelNomorBaru.Size = new System.Drawing.Size(213, 24);
             this.labelNomorBaru.TabIndex = 30;
             this.labelNomorBaru.Text = "Nomor Kamar Baru";
             this.labelNomorBaru.Click += new System.EventHandler(this.label1_Click);
@@ -144,10 +148,11 @@
             // 
             this.InputNomorBaru.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(231)))), ((int)(((byte)(233)))));
             this.InputNomorBaru.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.InputNomorBaru.Location = new System.Drawing.Point(301, 240);
+            this.InputNomorBaru.Location = new System.Drawing.Point(339, 300);
+            this.InputNomorBaru.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.InputNomorBaru.Multiline = true;
             this.InputNomorBaru.Name = "InputNomorBaru";
-            this.InputNomorBaru.Size = new System.Drawing.Size(216, 28);
+            this.InputNomorBaru.Size = new System.Drawing.Size(243, 35);
             this.InputNomorBaru.TabIndex = 33;
             this.InputNomorBaru.TextChanged += new System.EventHandler(this.txtusername_TextChanged);
             // 
@@ -155,9 +160,9 @@
             // 
             this.labelHargaBaru.AutoSize = true;
             this.labelHargaBaru.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelHargaBaru.Location = new System.Drawing.Point(301, 282);
+            this.labelHargaBaru.Location = new System.Drawing.Point(339, 352);
             this.labelHargaBaru.Name = "labelHargaBaru";
-            this.labelHargaBaru.Size = new System.Drawing.Size(180, 20);
+            this.labelHargaBaru.Size = new System.Drawing.Size(204, 24);
             this.labelHargaBaru.TabIndex = 30;
             this.labelHargaBaru.Text = "Harga Kamar Baru";
             // 
@@ -165,18 +170,19 @@
             // 
             this.InputHargaBaru.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(231)))), ((int)(((byte)(233)))));
             this.InputHargaBaru.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.InputHargaBaru.Location = new System.Drawing.Point(301, 305);
+            this.InputHargaBaru.Location = new System.Drawing.Point(339, 381);
+            this.InputHargaBaru.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.InputHargaBaru.Multiline = true;
             this.InputHargaBaru.Name = "InputHargaBaru";
-            this.InputHargaBaru.Size = new System.Drawing.Size(216, 28);
+            this.InputHargaBaru.Size = new System.Drawing.Size(243, 35);
             this.InputHargaBaru.TabIndex = 33;
             this.InputHargaBaru.TextChanged += new System.EventHandler(this.txtusername_TextChanged);
             // 
             // FormEditKamar
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(900, 562);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.InputHargaBaru);
             this.Controls.Add(this.InputHargaLama);
@@ -188,6 +194,7 @@
             this.Controls.Add(this.labelHargaLama);
             this.Controls.Add(this.labelNomorBaru);
             this.Controls.Add(this.labelNomorLama);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "FormEditKamar";
             this.Text = "FormEditKamar";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridEditKamar)).EndInit();

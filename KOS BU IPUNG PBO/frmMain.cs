@@ -39,23 +39,5 @@ namespace KOS_BU_IPUNG_PBO
             this.Hide();
             new FrmUserPesan().ShowDialog();
         }
-
-        private void frmMain_FormClosing(object sender, FormClosingEventArgs e)
-        {
-            if (e.CloseReason == CloseReason.UserClosing)
-            {
-                DialogResult result = MessageBox.Show("Apakah Anda yakin ingin keluar dari aplikasi?", "Konfirmasi Keluar", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-                if (result == DialogResult.Yes)
-                {
-                    // Mengakhiri sesi sebelum keluar
-                    UserSession.EndSession();
-                    Application.Exit();
-                }
-                else
-                {
-                    e.Cancel = true; // Batalkan penutupan
-                }
-            }
-        }
     }
 }

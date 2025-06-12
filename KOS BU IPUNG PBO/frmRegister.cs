@@ -15,7 +15,7 @@ using System.Configuration;
 
 namespace KOS_BU_IPUNG_PBO
 {
-    public partial class frmRegister : Form
+    public partial class frmRegister: Form
     {
         private string connectionString = ConfigurationManager.ConnectionStrings["KOS_BU_IPUNG_PBO.Properties.Settings.DatabasePBOConnectionString"].ConnectionString;
 
@@ -51,7 +51,7 @@ namespace KOS_BU_IPUNG_PBO
             frmLogin login = new frmLogin();
             login.Show();
             this.Hide();
-
+            
 
         }
 
@@ -59,7 +59,7 @@ namespace KOS_BU_IPUNG_PBO
         {
             if (txtusername.Text == "admin")
             {
-                MessageBox.Show("You cannot register with admin credentials", "Error Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
+               MessageBox.Show("You cannot register with admin credentials", "Error Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             else if (txtEmail.Text == "" || txtusername.Text == ""
              || txtPassword.Text == "")
@@ -124,7 +124,7 @@ namespace KOS_BU_IPUNG_PBO
                     }
 
                 }
-
+          
             }
         }
 
@@ -150,23 +150,6 @@ namespace KOS_BU_IPUNG_PBO
         private void frmRegister_Load(object sender, EventArgs e)
         {
 
-        }
-
-        private void frmRegister_FormClosing(object sender, FormClosingEventArgs e)
-        {
-            if (e.CloseReason == CloseReason.UserClosing)
-            {
-                DialogResult result = MessageBox.Show("Apakah Anda yakin ingin keluar?", "Konfirmasi Keluar", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-                if (result == DialogResult.Yes)
-                {
-                    Application.Exit();
-                }
-                else
-                {
-                    // Batalkan penutupan form
-                    e.Cancel = true;
-                }
-            }
         }
     }
 }

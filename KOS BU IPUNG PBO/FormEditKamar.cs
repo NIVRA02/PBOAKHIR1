@@ -113,10 +113,5 @@ namespace KOS_BU_IPUNG_PBO
             FormAdminKelola formAdminKelola = new FormAdminKelola();
             formAdminKelola.Show();
         }
-
-        private void FormEditKamar_FormClosing(object sender, FormClosingEventArgs e)
-        {
-
-        }
     }
 }

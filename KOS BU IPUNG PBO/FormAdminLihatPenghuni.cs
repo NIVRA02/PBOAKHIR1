@@ -1,13 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
 using System.Data.SqlClient;
+using System.Windows.Forms;
 using System.Configuration;
 
 namespace KOS_BU_IPUNG_PBO
@@ -24,24 +18,19 @@ namespace KOS_BU_IPUNG_PBO
 
         private void LoadPenghuniData()
         {
-            using (SqlConnection conn = new SqlConnection(connectionString))
-            {
-                string query = "SELECT * from penghuni";
-                SqlDataAdapter adapter = new SqlDataAdapter(query, conn);
-                DataTable dt = new DataTable();
-                adapter.Fill(dt);
-                dataGridView1.DataSource = dt;
-            }
-        }
+            string query = @"SELECT 
+                                p.id_penghuni AS 'ID Penghuni', 
+                                ps.username AS 'Username', 
+                                k.nomor_kamar AS 'Nomor Kamar', 
+                                p.tanggal_masuk AS 'Tanggal Masuk', 
+                                p.tanggal_keluar AS 'Tanggal Keluar'
+                            FROM penghuni p
+                            JOIN pemesanan ps ON p.id_pemesanan = ps.id_pemesanan
+                            JOIN kamar k ON ps.id_kamar = k.id_kamar
+                            WHERE p.tanggal_keluar >= GETDATE()"; // Hanya tampilkan penghuni aktif
 
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
-        private void FormAdminLihatPenghuni_Load(object sender, EventArgs e)
-        {
-
+            DataTable dt = DatabaseHelper.ExecuteQuery(query);
+            dataGridView1.DataSource = dt;
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -49,6 +38,11 @@ namespace KOS_BU_IPUNG_PBO
             this.Hide();
             FormAdmin formAdmin = new FormAdmin();
             formAdmin.Show();
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }

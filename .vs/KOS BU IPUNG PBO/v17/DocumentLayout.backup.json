@@ -1,133 +1,137 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\",
+  "WorkspaceRootPath": "C:\\Users\\LENOVO\\source\\repos\\PBOAKHIR1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\kos bu ipung pbo\\formadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|solutionrelative:kos bu ipung pbo\\formadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\kos bu ipung pbo\\formadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|solutionrelative:kos bu ipung pbo\\formadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|c:\\users\\samuel gurning\\source\\repos\\pboakhir1\\kos bu ipung pbo\\frmuserstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|solutionrelative:kos bu ipung pbo\\frmuserstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\kos bu ipung pbo\\frmuserstatus.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
-      "RelativeMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|solutionrelative:kos bu ipung pbo\\frmuserstatus.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\kos bu ipung pbo\\frmuserstatus.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|solutionrelative:kos bu ipung pbo\\frmuserstatus.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\kos bu ipung pbo\\frmregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|solutionrelative:kos bu ipung pbo\\frmregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\kos bu ipung pbo\\frmuserpesan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|solutionrelative:kos bu ipung pbo\\frmuserpesan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\kos bu ipung pbo\\frmuserkamar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|solutionrelative:kos bu ipung pbo\\frmuserkamar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\kos bu ipung pbo\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|solutionrelative:kos bu ipung pbo\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\kos bu ipung pbo\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|solutionrelative:kos bu ipung pbo\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\kos bu ipung pbo\\formtambahkamar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|solutionrelative:kos bu ipung pbo\\formtambahkamar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\kos bu ipung pbo\\formstatistikkos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|solutionrelative:kos bu ipung pbo\\formstatistikkos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\kos bu ipung pbo\\formhapuskamar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|solutionrelative:kos bu ipung pbo\\formhapuskamar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\kos bu ipung pbo\\formeditkamar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|solutionrelative:kos bu ipung pbo\\formeditkamar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\kos bu ipung pbo\\formadminvalidasi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|solutionrelative:kos bu ipung pbo\\formadminvalidasi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\kos bu ipung pbo\\formadminlihatpenghuni.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|solutionrelative:kos bu ipung pbo\\formadminlihatpenghuni.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\kos bu ipung pbo\\formadminkelola.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|solutionrelative:kos bu ipung pbo\\formadminkelola.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\kos bu ipung pbo\\formadminkelola.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|solutionrelative:kos bu ipung pbo\\formadminkelola.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\kos bu ipung pbo\\frmuserstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|solutionrelative:kos bu ipung pbo\\frmuserstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\kos bu ipung pbo\\frmuserpesan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|solutionrelative:kos bu ipung pbo\\frmuserpesan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\kos bu ipung pbo\\frmuserkamar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|solutionrelative:kos bu ipung pbo\\frmuserkamar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\kos bu ipung pbo\\frmregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|solutionrelative:kos bu ipung pbo\\frmregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\kos bu ipung pbo\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|solutionrelative:kos bu ipung pbo\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\kos bu ipung pbo\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|solutionrelative:kos bu ipung pbo\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\kos bu ipung pbo\\formtambahkamar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|solutionrelative:kos bu ipung pbo\\formtambahkamar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\kos bu ipung pbo\\formstatistikkos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|solutionrelative:kos bu ipung pbo\\formstatistikkos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\kos bu ipung pbo\\formhapuskamar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|solutionrelative:kos bu ipung pbo\\formhapuskamar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\kos bu ipung pbo\\formeditkamar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|solutionrelative:kos bu ipung pbo\\formeditkamar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\kos bu ipung pbo\\formadminvalidasi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|C:\\Users\\LENOVO\\source\\repos\\PBOAKHIR1\\kos bu ipung pbo\\formadminvalidasi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|solutionrelative:kos bu ipung pbo\\formadminvalidasi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\kos bu ipung pbo\\formadminlihatpenghuni.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|C:\\Users\\LENOVO\\source\\repos\\PBOAKHIR1\\kos bu ipung pbo\\formadminvalidasi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|solutionrelative:kos bu ipung pbo\\formadminvalidasi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|C:\\Users\\LENOVO\\source\\repos\\PBOAKHIR1\\kos bu ipung pbo\\formstatistikkos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|solutionrelative:kos bu ipung pbo\\formstatistikkos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|C:\\Users\\LENOVO\\source\\repos\\PBOAKHIR1\\kos bu ipung pbo\\formstatistikkos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|solutionrelative:kos bu ipung pbo\\formstatistikkos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|C:\\Users\\LENOVO\\source\\repos\\PBOAKHIR1\\kos bu ipung pbo\\formadminlihatpenghuni.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|solutionrelative:kos bu ipung pbo\\formadminlihatpenghuni.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\kos bu ipung pbo\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|c:\\users\\lenovo\\source\\repos\\pboakhir1\\kos bu ipung pbo\\formadminvalidasi.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|solutionrelative:kos bu ipung pbo\\formadminvalidasi.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|c:\\users\\lenovo\\source\\repos\\pboakhir1\\kos bu ipung pbo\\formadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|solutionrelative:kos bu ipung pbo\\formadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|C:\\Users\\LENOVO\\source\\repos\\PBOAKHIR1\\kos bu ipung pbo\\formadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|solutionrelative:kos bu ipung pbo\\formadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|C:\\Users\\LENOVO\\source\\repos\\PBOAKHIR1\\kos bu ipung pbo\\frmuserstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|solutionrelative:kos bu ipung pbo\\frmuserstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|C:\\Users\\LENOVO\\source\\repos\\PBOAKHIR1\\kos bu ipung pbo\\frmuserstatus.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|solutionrelative:kos bu ipung pbo\\frmuserstatus.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|C:\\Users\\LENOVO\\source\\repos\\PBOAKHIR1\\kos bu ipung pbo\\frmuserstatus.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|solutionrelative:kos bu ipung pbo\\frmuserstatus.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|C:\\Users\\LENOVO\\source\\repos\\PBOAKHIR1\\kos bu ipung pbo\\frmregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|solutionrelative:kos bu ipung pbo\\frmregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|C:\\Users\\LENOVO\\source\\repos\\PBOAKHIR1\\kos bu ipung pbo\\frmuserpesan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|solutionrelative:kos bu ipung pbo\\frmuserpesan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|C:\\Users\\LENOVO\\source\\repos\\PBOAKHIR1\\kos bu ipung pbo\\frmuserkamar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|solutionrelative:kos bu ipung pbo\\frmuserkamar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|C:\\Users\\LENOVO\\source\\repos\\PBOAKHIR1\\kos bu ipung pbo\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|solutionrelative:kos bu ipung pbo\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|C:\\Users\\LENOVO\\source\\repos\\PBOAKHIR1\\kos bu ipung pbo\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|solutionrelative:kos bu ipung pbo\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|C:\\Users\\LENOVO\\source\\repos\\PBOAKHIR1\\kos bu ipung pbo\\formtambahkamar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|solutionrelative:kos bu ipung pbo\\formtambahkamar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|C:\\Users\\LENOVO\\source\\repos\\PBOAKHIR1\\kos bu ipung pbo\\formhapuskamar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|solutionrelative:kos bu ipung pbo\\formhapuskamar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|C:\\Users\\LENOVO\\source\\repos\\PBOAKHIR1\\kos bu ipung pbo\\formeditkamar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|solutionrelative:kos bu ipung pbo\\formeditkamar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|C:\\Users\\LENOVO\\source\\repos\\PBOAKHIR1\\kos bu ipung pbo\\formadminlihatpenghuni.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|solutionrelative:kos bu ipung pbo\\formadminlihatpenghuni.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|C:\\Users\\LENOVO\\source\\repos\\PBOAKHIR1\\kos bu ipung pbo\\formadminkelola.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|solutionrelative:kos bu ipung pbo\\formadminkelola.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|C:\\Users\\LENOVO\\source\\repos\\PBOAKHIR1\\kos bu ipung pbo\\formadminkelola.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|solutionrelative:kos bu ipung pbo\\formadminkelola.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|C:\\Users\\LENOVO\\source\\repos\\PBOAKHIR1\\kos bu ipung pbo\\frmuserstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|solutionrelative:kos bu ipung pbo\\frmuserstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|C:\\Users\\LENOVO\\source\\repos\\PBOAKHIR1\\kos bu ipung pbo\\frmuserpesan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|solutionrelative:kos bu ipung pbo\\frmuserpesan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|C:\\Users\\LENOVO\\source\\repos\\PBOAKHIR1\\kos bu ipung pbo\\frmuserkamar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|solutionrelative:kos bu ipung pbo\\frmuserkamar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|C:\\Users\\LENOVO\\source\\repos\\PBOAKHIR1\\kos bu ipung pbo\\frmregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|solutionrelative:kos bu ipung pbo\\frmregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|C:\\Users\\LENOVO\\source\\repos\\PBOAKHIR1\\kos bu ipung pbo\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|solutionrelative:kos bu ipung pbo\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|C:\\Users\\LENOVO\\source\\repos\\PBOAKHIR1\\kos bu ipung pbo\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|solutionrelative:kos bu ipung pbo\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|C:\\Users\\LENOVO\\source\\repos\\PBOAKHIR1\\kos bu ipung pbo\\formtambahkamar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|solutionrelative:kos bu ipung pbo\\formtambahkamar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|C:\\Users\\LENOVO\\source\\repos\\PBOAKHIR1\\kos bu ipung pbo\\formhapuskamar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|solutionrelative:kos bu ipung pbo\\formhapuskamar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|C:\\Users\\LENOVO\\source\\repos\\PBOAKHIR1\\kos bu ipung pbo\\formeditkamar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|solutionrelative:kos bu ipung pbo\\formeditkamar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|C:\\Users\\LENOVO\\source\\repos\\PBOAKHIR1\\kos bu ipung pbo\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|solutionrelative:kos bu ipung pbo\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\kos bu ipung pbo\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|C:\\Users\\LENOVO\\source\\repos\\PBOAKHIR1\\kos bu ipung pbo\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{08475006-3092-4959-95CA-51DECBC9EDA7}|KOS BU IPUNG PBO\\KOS BU IPUNG PBO.csproj|solutionrelative:kos bu ipung pbo\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -169,23 +173,117 @@
               "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "frmRegister.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\frmRegister.cs",
-              "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\frmRegister.cs",
-              "ToolTip": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\frmRegister.cs [Design]",
-              "RelativeToolTip": "KOS BU IPUNG PBO\\frmRegister.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T18:09:19.607Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "FormStatistikKos.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FormStatistikKos.cs",
+              "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\FormStatistikKos.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FormStatistikKos.cs",
+              "RelativeToolTip": "KOS BU IPUNG PBO\\FormStatistikKos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T18:05:08.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormAdminValidasi.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FormAdminValidasi.cs",
+              "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\FormAdminValidasi.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FormAdminValidasi.cs [Design]",
+              "RelativeToolTip": "KOS BU IPUNG PBO\\FormAdminValidasi.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T18:05:29.339Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormAdminValidasi.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FormAdminValidasi.cs",
+              "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\FormAdminValidasi.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FormAdminValidasi.cs",
+              "RelativeToolTip": "KOS BU IPUNG PBO\\FormAdminValidasi.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAAwDQAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T18:05:35.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormStatistikKos.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FormStatistikKos.cs",
+              "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\FormStatistikKos.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FormStatistikKos.cs [Design]",
+              "RelativeToolTip": "KOS BU IPUNG PBO\\FormStatistikKos.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T18:05:04.686Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FormAdminLihatPenghuni.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FormAdminLihatPenghuni.cs",
+              "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\FormAdminLihatPenghuni.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FormAdminLihatPenghuni.cs",
+              "RelativeToolTip": "KOS BU IPUNG PBO\\FormAdminLihatPenghuni.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAQwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T18:05:42.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FormAdminValidasi.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Source\\Repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FormAdminValidasi.Designer.cs",
+              "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\FormAdminValidasi.Designer.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Source\\Repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FormAdminValidasi.Designer.cs",
+              "RelativeToolTip": "KOS BU IPUNG PBO\\FormAdminValidasi.Designer.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAwCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T22:17:31.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FormAdmin.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FormAdmin.cs",
+              "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\FormAdmin.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FormAdmin.cs",
+              "RelativeToolTip": "KOS BU IPUNG PBO\\FormAdmin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T18:05:57.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FormAdmin.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FormAdmin.cs",
+              "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\FormAdmin.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FormAdmin.cs [Design]",
+              "RelativeToolTip": "KOS BU IPUNG PBO\\FormAdmin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T18:05:54.601Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "FrmUserStatus.cs",
-              "DocumentMoniker": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FrmUserStatus.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FrmUserStatus.cs",
               "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\FrmUserStatus.cs",
-              "ToolTip": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FrmUserStatus.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FrmUserStatus.cs",
               "RelativeToolTip": "KOS BU IPUNG PBO\\FrmUserStatus.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAuwBsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -194,350 +292,302 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FormAdmin.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FormAdmin.cs",
-              "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\FormAdmin.cs",
-              "ToolTip": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FormAdmin.cs [Design]",
-              "RelativeToolTip": "KOS BU IPUNG PBO\\FormAdmin.cs [Design]",
+              "DocumentIndex": 11,
+              "Title": "frmRegister.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\frmRegister.cs",
+              "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\frmRegister.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\frmRegister.cs [Design]",
+              "RelativeToolTip": "KOS BU IPUNG PBO\\frmRegister.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T18:05:54.601Z",
+              "WhenOpened": "2025-06-12T18:09:19.607Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FormAdmin.cs",
-              "DocumentMoniker": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FormAdmin.cs",
-              "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\FormAdmin.cs",
-              "ToolTip": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FormAdmin.cs",
-              "RelativeToolTip": "KOS BU IPUNG PBO\\FormAdmin.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAwwEIAAAANAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "FrmUserStatus.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FrmUserStatus.Designer.cs",
+              "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\FrmUserStatus.Designer.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FrmUserStatus.Designer.cs",
+              "RelativeToolTip": "KOS BU IPUNG PBO\\FrmUserStatus.Designer.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T18:05:57.702Z",
+              "WhenOpened": "2025-06-12T18:38:22.148Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FrmUserStatus.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FrmUserStatus.Designer.cs",
-              "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\FrmUserStatus.Designer.cs",
-              "ToolTip": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FrmUserStatus.Designer.cs",
-              "RelativeToolTip": "KOS BU IPUNG PBO\\FrmUserStatus.Designer.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T18:38:22.148Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "FrmUserStatus.resx",
-              "DocumentMoniker": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FrmUserStatus.resx",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FrmUserStatus.resx",
               "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\FrmUserStatus.resx",
-              "ToolTip": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FrmUserStatus.resx",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FrmUserStatus.resx",
               "RelativeToolTip": "KOS BU IPUNG PBO\\FrmUserStatus.resx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2025-06-12T18:38:32.612Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "frmMain.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\frmMain.cs",
-              "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\frmMain.cs",
-              "ToolTip": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\frmMain.cs [Design]",
-              "RelativeToolTip": "KOS BU IPUNG PBO\\frmMain.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T18:09:11.524Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "FrmUserKamar.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FrmUserKamar.cs",
-              "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\FrmUserKamar.cs",
-              "ToolTip": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FrmUserKamar.cs [Design]",
-              "RelativeToolTip": "KOS BU IPUNG PBO\\FrmUserKamar.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T18:06:07.649Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "FrmUserPesan.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FrmUserPesan.cs",
-              "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\FrmUserPesan.cs",
-              "ToolTip": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FrmUserPesan.cs [Design]",
-              "RelativeToolTip": "KOS BU IPUNG PBO\\FrmUserPesan.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T18:06:15.85Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "frmLogin.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\frmLogin.cs",
-              "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\frmLogin.cs",
-              "ToolTip": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\frmLogin.cs [Design]",
-              "RelativeToolTip": "KOS BU IPUNG PBO\\frmLogin.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T18:09:02.402Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "FormTambahKamar.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FormTambahKamar.cs",
-              "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\FormTambahKamar.cs",
-              "ToolTip": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FormTambahKamar.cs [Design]",
-              "RelativeToolTip": "KOS BU IPUNG PBO\\FormTambahKamar.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T18:08:51.399Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "FormStatistikKos.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FormStatistikKos.cs",
-              "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\FormStatistikKos.cs",
-              "ToolTip": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FormStatistikKos.cs [Design]",
-              "RelativeToolTip": "KOS BU IPUNG PBO\\FormStatistikKos.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T18:05:04.686Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "FormHapusKamar.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FormHapusKamar.cs",
-              "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\FormHapusKamar.cs",
-              "ToolTip": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FormHapusKamar.cs [Design]",
-              "RelativeToolTip": "KOS BU IPUNG PBO\\FormHapusKamar.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T18:05:14.291Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "FormEditKamar.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FormEditKamar.cs",
-              "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\FormEditKamar.cs",
-              "ToolTip": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FormEditKamar.cs [Design]",
-              "RelativeToolTip": "KOS BU IPUNG PBO\\FormEditKamar.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T18:05:21.918Z"
+              "WhenOpened": "2025-06-12T18:38:32.612Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "FormAdminValidasi.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FormAdminValidasi.cs",
-              "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\FormAdminValidasi.cs",
-              "ToolTip": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FormAdminValidasi.cs [Design]",
-              "RelativeToolTip": "KOS BU IPUNG PBO\\FormAdminValidasi.cs [Design]",
+              "Title": "frmMain.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\frmMain.cs",
+              "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\frmMain.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\frmMain.cs [Design]",
+              "RelativeToolTip": "KOS BU IPUNG PBO\\frmMain.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T18:05:29.339Z"
+              "WhenOpened": "2025-06-12T18:09:11.524Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "FrmUserKamar.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FrmUserKamar.cs",
+              "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\FrmUserKamar.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FrmUserKamar.cs [Design]",
+              "RelativeToolTip": "KOS BU IPUNG PBO\\FrmUserKamar.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T18:06:07.649Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "FrmUserPesan.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FrmUserPesan.cs",
+              "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\FrmUserPesan.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FrmUserPesan.cs [Design]",
+              "RelativeToolTip": "KOS BU IPUNG PBO\\FrmUserPesan.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T18:06:15.85Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "FormAdminLihatPenghuni.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FormAdminLihatPenghuni.cs",
-              "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\FormAdminLihatPenghuni.cs",
-              "ToolTip": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FormAdminLihatPenghuni.cs [Design]",
-              "RelativeToolTip": "KOS BU IPUNG PBO\\FormAdminLihatPenghuni.cs [Design]",
+              "Title": "frmLogin.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\frmLogin.cs",
+              "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\frmLogin.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\frmLogin.cs [Design]",
+              "RelativeToolTip": "KOS BU IPUNG PBO\\frmLogin.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T18:05:38.159Z"
+              "WhenOpened": "2025-06-12T18:09:02.402Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
-              "Title": "FormAdminKelola.cs",
-              "DocumentMoniker": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FormAdminKelola.cs",
-              "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\FormAdminKelola.cs",
-              "ToolTip": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FormAdminKelola.cs",
-              "RelativeToolTip": "KOS BU IPUNG PBO\\FormAdminKelola.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAowDwAAAAMAAAAAAAAAA==",
+              "Title": "FormTambahKamar.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FormTambahKamar.cs",
+              "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\FormTambahKamar.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FormTambahKamar.cs [Design]",
+              "RelativeToolTip": "KOS BU IPUNG PBO\\FormTambahKamar.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T18:05:51.651Z"
+              "WhenOpened": "2025-06-12T18:08:51.399Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 17,
-              "Title": "FormAdminKelola.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FormAdminKelola.cs",
-              "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\FormAdminKelola.cs",
-              "ToolTip": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FormAdminKelola.cs [Design]",
-              "RelativeToolTip": "KOS BU IPUNG PBO\\FormAdminKelola.cs [Design]",
+              "Title": "FormHapusKamar.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FormHapusKamar.cs",
+              "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\FormHapusKamar.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FormHapusKamar.cs [Design]",
+              "RelativeToolTip": "KOS BU IPUNG PBO\\FormHapusKamar.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T18:05:46.257Z"
+              "WhenOpened": "2025-06-12T18:05:14.291Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 18,
-              "Title": "FrmUserStatus.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FrmUserStatus.cs",
-              "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\FrmUserStatus.cs",
-              "ToolTip": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FrmUserStatus.cs [Design]",
-              "RelativeToolTip": "KOS BU IPUNG PBO\\FrmUserStatus.cs [Design]",
+              "Title": "FormEditKamar.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FormEditKamar.cs",
+              "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\FormEditKamar.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FormEditKamar.cs [Design]",
+              "RelativeToolTip": "KOS BU IPUNG PBO\\FormEditKamar.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T18:06:25.92Z"
+              "WhenOpened": "2025-06-12T18:05:21.918Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 19,
-              "Title": "FrmUserPesan.cs",
-              "DocumentMoniker": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FrmUserPesan.cs",
-              "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\FrmUserPesan.cs",
-              "ToolTip": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FrmUserPesan.cs",
-              "RelativeToolTip": "KOS BU IPUNG PBO\\FrmUserPesan.cs",
-              "ViewState": "AgIAAP4AAAAAAAAAAAAwwBYBAAANAAAAAAAAAA==",
+              "Title": "FormAdminLihatPenghuni.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FormAdminLihatPenghuni.cs",
+              "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\FormAdminLihatPenghuni.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FormAdminLihatPenghuni.cs [Design]",
+              "RelativeToolTip": "KOS BU IPUNG PBO\\FormAdminLihatPenghuni.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T18:06:19.213Z"
+              "WhenOpened": "2025-06-12T18:05:38.159Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 20,
-              "Title": "FrmUserKamar.cs",
-              "DocumentMoniker": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FrmUserKamar.cs",
-              "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\FrmUserKamar.cs",
-              "ToolTip": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FrmUserKamar.cs",
-              "RelativeToolTip": "KOS BU IPUNG PBO\\FrmUserKamar.cs",
-              "ViewState": "AgIAAJQAAAAAAAAAAAAswKsAAAANAAAAAAAAAA==",
+              "Title": "FormAdminKelola.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FormAdminKelola.cs",
+              "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\FormAdminKelola.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FormAdminKelola.cs",
+              "RelativeToolTip": "KOS BU IPUNG PBO\\FormAdminKelola.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAowDwAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T18:06:11.498Z"
+              "WhenOpened": "2025-06-12T18:05:51.651Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 21,
-              "Title": "frmRegister.cs",
-              "DocumentMoniker": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\frmRegister.cs",
-              "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\frmRegister.cs",
-              "ToolTip": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\frmRegister.cs",
-              "RelativeToolTip": "KOS BU IPUNG PBO\\frmRegister.cs",
-              "ViewState": "AgIAAJIAAAAAAAAAAAAkwJwAAAAMAAAAAAAAAA==",
+              "Title": "FormAdminKelola.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FormAdminKelola.cs",
+              "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\FormAdminKelola.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FormAdminKelola.cs [Design]",
+              "RelativeToolTip": "KOS BU IPUNG PBO\\FormAdminKelola.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T18:09:24.584Z"
+              "WhenOpened": "2025-06-12T18:05:46.257Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 22,
-              "Title": "frmMain.cs",
-              "DocumentMoniker": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\frmMain.cs",
-              "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\frmMain.cs",
-              "ToolTip": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\frmMain.cs",
-              "RelativeToolTip": "KOS BU IPUNG PBO\\frmMain.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAkwCwAAAAMAAAAAAAAAA==",
+              "Title": "FrmUserStatus.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FrmUserStatus.cs",
+              "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\FrmUserStatus.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FrmUserStatus.cs [Design]",
+              "RelativeToolTip": "KOS BU IPUNG PBO\\FrmUserStatus.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T18:09:14.486Z"
+              "WhenOpened": "2025-06-12T18:06:25.92Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 23,
-              "Title": "frmLogin.cs",
-              "DocumentMoniker": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\frmLogin.cs",
-              "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\frmLogin.cs",
-              "ToolTip": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\frmLogin.cs",
-              "RelativeToolTip": "KOS BU IPUNG PBO\\frmLogin.cs",
-              "ViewState": "AgIAAIwAAAAAAAAAAAAwwKQAAAANAAAAAAAAAA==",
+              "Title": "FrmUserPesan.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FrmUserPesan.cs",
+              "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\FrmUserPesan.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FrmUserPesan.cs",
+              "RelativeToolTip": "KOS BU IPUNG PBO\\FrmUserPesan.cs",
+              "ViewState": "AgIAAP4AAAAAAAAAAAAwwBYBAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T18:09:05.873Z"
+              "WhenOpened": "2025-06-12T18:06:19.213Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 24,
-              "Title": "FormTambahKamar.cs",
-              "DocumentMoniker": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FormTambahKamar.cs",
-              "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\FormTambahKamar.cs",
-              "ToolTip": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FormTambahKamar.cs",
-              "RelativeToolTip": "KOS BU IPUNG PBO\\FormTambahKamar.cs",
-              "ViewState": "AgIAAHYAAAAAAAAAAADwv44AAAANAAAAAAAAAA==",
+              "Title": "FrmUserKamar.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FrmUserKamar.cs",
+              "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\FrmUserKamar.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FrmUserKamar.cs",
+              "RelativeToolTip": "KOS BU IPUNG PBO\\FrmUserKamar.cs",
+              "ViewState": "AgIAAJQAAAAAAAAAAAAswKsAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T18:08:54.931Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "FormHapusKamar.cs",
-              "DocumentMoniker": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FormHapusKamar.cs",
-              "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\FormHapusKamar.cs",
-              "ToolTip": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FormHapusKamar.cs",
-              "RelativeToolTip": "KOS BU IPUNG PBO\\FormHapusKamar.cs",
-              "ViewState": "AgIAAHgAAAAAAAAAAAAwwJAAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T18:05:18.343Z"
+              "WhenOpened": "2025-06-12T18:06:11.498Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 25,
-              "Title": "FormStatistikKos.cs",
-              "DocumentMoniker": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FormStatistikKos.cs",
-              "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\FormStatistikKos.cs",
-              "ToolTip": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FormStatistikKos.cs",
-              "RelativeToolTip": "KOS BU IPUNG PBO\\FormStatistikKos.cs",
-              "ViewState": "AgIAAGYAAAAAAAAAAAAwwH4AAAANAAAAAAAAAA==",
+              "Title": "frmRegister.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\frmRegister.cs",
+              "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\frmRegister.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\frmRegister.cs",
+              "RelativeToolTip": "KOS BU IPUNG PBO\\frmRegister.cs",
+              "ViewState": "AgIAAJIAAAAAAAAAAAAkwJwAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T18:05:08.918Z"
+              "WhenOpened": "2025-06-12T18:09:24.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "frmMain.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\frmMain.cs",
+              "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\frmMain.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\frmMain.cs",
+              "RelativeToolTip": "KOS BU IPUNG PBO\\frmMain.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAkwCwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T18:09:14.486Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 27,
-              "Title": "FormEditKamar.cs",
-              "DocumentMoniker": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FormEditKamar.cs",
-              "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\FormEditKamar.cs",
-              "ToolTip": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FormEditKamar.cs",
-              "RelativeToolTip": "KOS BU IPUNG PBO\\FormEditKamar.cs",
-              "ViewState": "AgIAAGsAAAAAAAAAAAAwwIMAAAANAAAAAAAAAA==",
+              "Title": "frmLogin.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\frmLogin.cs",
+              "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\frmLogin.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\frmLogin.cs",
+              "RelativeToolTip": "KOS BU IPUNG PBO\\frmLogin.cs",
+              "ViewState": "AgIAAIwAAAAAAAAAAAAwwKQAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T18:05:25.992Z"
+              "WhenOpened": "2025-06-12T18:09:05.873Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 28,
-              "Title": "FormAdminValidasi.cs",
-              "DocumentMoniker": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FormAdminValidasi.cs",
-              "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\FormAdminValidasi.cs",
-              "ToolTip": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FormAdminValidasi.cs",
-              "RelativeToolTip": "KOS BU IPUNG PBO\\FormAdminValidasi.cs",
-              "ViewState": "AgIAAK4AAAAAAAAAAAAwwMYAAAANAAAAAAAAAA==",
+              "Title": "FormTambahKamar.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FormTambahKamar.cs",
+              "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\FormTambahKamar.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FormTambahKamar.cs",
+              "RelativeToolTip": "KOS BU IPUNG PBO\\FormTambahKamar.cs",
+              "ViewState": "AgIAAHYAAAAAAAAAAADwv44AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T18:05:35.276Z"
+              "WhenOpened": "2025-06-12T18:08:54.931Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 29,
-              "Title": "FormAdminLihatPenghuni.cs",
-              "DocumentMoniker": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FormAdminLihatPenghuni.cs",
-              "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\FormAdminLihatPenghuni.cs",
-              "ToolTip": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FormAdminLihatPenghuni.cs",
-              "RelativeToolTip": "KOS BU IPUNG PBO\\FormAdminLihatPenghuni.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAwwFMAAAANAAAAAAAAAA==",
+              "Title": "FormHapusKamar.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FormHapusKamar.cs",
+              "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\FormHapusKamar.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FormHapusKamar.cs",
+              "RelativeToolTip": "KOS BU IPUNG PBO\\FormHapusKamar.cs",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAwwJAAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T18:05:42.952Z"
+              "WhenOpened": "2025-06-12T18:05:18.343Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 30,
-              "Title": "main.cs",
-              "DocumentMoniker": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\main.cs",
-              "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\main.cs",
-              "ToolTip": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\main.cs",
-              "RelativeToolTip": "KOS BU IPUNG PBO\\main.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAANAAAAAAAAAA==",
+              "Title": "FormEditKamar.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FormEditKamar.cs",
+              "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\FormEditKamar.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\FormEditKamar.cs",
+              "RelativeToolTip": "KOS BU IPUNG PBO\\FormEditKamar.cs",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAwwIMAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T18:06:41.804Z"
+              "WhenOpened": "2025-06-12T18:05:25.992Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 31,
-              "Title": "main.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\main.cs",
+              "Title": "main.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\main.cs",
               "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\main.cs",
-              "ToolTip": "C:\\Users\\Samuel Gurning\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\main.cs [Design]",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\main.cs",
+              "RelativeToolTip": "KOS BU IPUNG PBO\\main.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T18:06:41.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "main.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\main.cs",
+              "RelativeDocumentMoniker": "KOS BU IPUNG PBO\\main.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\PBOAKHIR1\\KOS BU IPUNG PBO\\main.cs [Design]",
               "RelativeToolTip": "KOS BU IPUNG PBO\\main.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T18:06:34.826Z"
+              "WhenOpened": "2025-06-12T18:06:34.826Z",
+              "EditorCaption": " [Design]"
             }
           ]
         },

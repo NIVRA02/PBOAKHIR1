@@ -1,48 +1,56 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
 using System.Data.SqlClient;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Configuration;
 
-
 namespace KOS_BU_IPUNG_PBO
 {
-    public partial class FormStatistikKos: Form
+    public partial class FormStatistikKos : Form
     {
         private string connectionString = ConfigurationManager.ConnectionStrings["KOS_BU_IPUNG_PBO.Properties.Settings.DatabasePBOConnectionString"].ConnectionString;
 
         public FormStatistikKos()
         {
             InitializeComponent();
-            LoadKamarData();
+            LoadKamarStatistics();
         }
 
-        private void LoadKamarData()
+        private void LoadKamarStatistics()
         {
+            DataTable dt = new DataTable();
+            dt.Columns.Add("Status Kamar", typeof(string));
+            dt.Columns.Add("Jumlah", typeof(int));
+
             using (SqlConnection conn = new SqlConnection(connectionString))
             {
-                string query = "SELECT * FROM kamar";
-                SqlDataAdapter adapter = new SqlDataAdapter(query, conn);
-                DataTable dt = new DataTable();
-                adapter.Fill(dt);
-                dataGridView1.DataSource = dt;
+                try
+                {
+                    conn.Open();
+
+                    // Hitung kamar terisi
+                    string queryTerisi = "SELECT COUNT(*) FROM kamar WHERE status = 'T'";
+                    SqlCommand cmdTerisi = new SqlCommand(queryTerisi, conn);
+                    int jumlahTerisi = (int)cmdTerisi.ExecuteScalar();
+                    dt.Rows.Add("Terisi", jumlahTerisi);
+
+                    // Hitung kamar kosong
+                    string queryKosong = "SELECT COUNT(*) FROM kamar WHERE status = 'K'";
+                    SqlCommand cmdKosong = new SqlCommand(queryKosong, conn);
+                    int jumlahKosong = (int)cmdKosong.ExecuteScalar();
+                    dt.Rows.Add("Kosong", jumlahKosong);
+
+                    // Hitung total kamar
+                    int totalKamar = jumlahTerisi + jumlahKosong;
+                    dt.Rows.Add("Total Kamar", totalKamar);
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Gagal memuat statistik: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
             }
-        }
 
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
-        private void FrmUserKamar_Load(object sender, EventArgs e)
-        {
-
+            dataGridView1.DataSource = dt;
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -52,5 +60,9 @@ namespace KOS_BU_IPUNG_PBO
             formAdmin.Show();
         }
 
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

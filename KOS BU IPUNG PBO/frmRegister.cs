@@ -10,12 +10,14 @@ using System.Windows.Forms;
 using System.Data;
 using System.Data.SqlClient;
 using System.Runtime.Remoting.Contexts;
+using System.Configuration;
+
 
 namespace KOS_BU_IPUNG_PBO
 {
     public partial class frmRegister: Form
     {
-        SqlConnection connect = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=""C:\Users\LENOVO\Source\Repos\PBOAKHIR1\KOS BU IPUNG PBO\DatabasePBO.mdf"";Integrated Security=True;Connect Timeout=30");
+        private string connectionString = ConfigurationManager.ConnectionStrings["KOS_BU_IPUNG_PBO.Properties.Settings.DatabasePBOConnectionString"].ConnectionString;
 
         public frmRegister()
         {
@@ -66,7 +68,8 @@ namespace KOS_BU_IPUNG_PBO
             }
             else
             {
-                if (connect.State != ConnectionState.Open)
+                string connString = ConfigurationManager.ConnectionStrings["KOS_BU_IPUNG_PBO.Properties.Settings.DatabasePBOConnectionString"].ConnectionString;
+                using (SqlConnection connect = new SqlConnection(connString))
                 {
                     try
                     {

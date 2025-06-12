@@ -8,12 +8,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Configuration;
+
 
 namespace KOS_BU_IPUNG_PBO
 {
     public partial class FormTambahKamar : Form
     {
-        private string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=""C:\Users\LENOVO\Source\Repos\PBOAKHIR1\KOS BU IPUNG PBO\DatabasePBO.mdf"";Integrated Security=True;Connect Timeout=30";
+        private string connectionString = ConfigurationManager.ConnectionStrings["KOS_BU_IPUNG_PBO.Properties.Settings.DatabasePBOConnectionString"].ConnectionString;
+
 
         public FormTambahKamar()
         {
@@ -29,7 +32,7 @@ namespace KOS_BU_IPUNG_PBO
                 SqlDataAdapter adapter = new SqlDataAdapter(query, conn);
                 DataTable dt = new DataTable();
                 adapter.Fill(dt);
-                dataGridView1.DataSource = dt;
+                dataGridKamarTambah.DataSource = dt;
             }
         }
 
@@ -63,6 +66,63 @@ namespace KOS_BU_IPUNG_PBO
             this.Hide();
             FormAdminKelola formAdminKelola = new FormAdminKelola();
             formAdminKelola.Show();
+
+        }
+
+        private void button4_Click_1(object sender, EventArgs e)
+        {
+            if (string.IsNullOrWhiteSpace(InputNomorKamar.Text) || string.IsNullOrWhiteSpace(InputHargaKamar.Text))
+            {
+                MessageBox.Show("Nomor kamar dan harga tidak boleh kosong.", "Validasi Gagal", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            string connString = ConfigurationManager.ConnectionStrings["KOS_BU_IPUNG_PBO.Properties.Settings.DatabasePBOConnectionString"].ConnectionString;
+
+            using (SqlConnection connect = new SqlConnection(connString))
+            {
+                string query = "INSERT INTO Kamar (nomor_kamar, harga, status) VALUES (@nomor, @harga, @status)";
+
+                using (SqlCommand cmd = new SqlCommand(query, connect))
+                {
+                    cmd.Parameters.AddWithValue("@nomor", InputNomorKamar.Text);
+                    cmd.Parameters.AddWithValue("@harga", InputHargaKamar.Text);
+                    cmd.Parameters.AddWithValue("@status", "T");
+
+                    try
+                    {
+                        connect.Open();
+                        int result = cmd.ExecuteNonQuery();
+
+                        if (result > 0)
+                        {
+                            MessageBox.Show("Kamar berhasil ditambahkan!", "Sukses", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            InputNomorKamar.Clear();
+                            InputHargaKamar.Clear();
+                        }
+                        else
+                        {
+                            MessageBox.Show("Gagal menambahkan kamar.", "Gagal", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        }
+                    }
+                    catch (SqlException ex)
+                    {
+                        if (ex.Number == 2627)
+                        {
+                            MessageBox.Show("Nomor kamar sudah ada. Silakan gunakan nomor lain.", "Error Duplikat", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        }
+                        else
+                        {
+                            MessageBox.Show("Terjadi error pada database: " + ex.Message, "Database Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show("Terjadi error: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                }
+            }
+
         }
     }
 }

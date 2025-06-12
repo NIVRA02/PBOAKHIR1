@@ -8,12 +8,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Configuration;
+
 
 namespace KOS_BU_IPUNG_PBO
 {
     public partial class FormEditKamar : Form
     {
-        private string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=""C:\Users\LENOVO\Source\Repos\PBOAKHIR1\KOS BU IPUNG PBO\DatabasePBO.mdf"";Integrated Security=True;Connect Timeout=30";
+        private string connectionString = ConfigurationManager.ConnectionStrings["KOS_BU_IPUNG_PBO.Properties.Settings.DatabasePBOConnectionString"].ConnectionString;
+
 
         public FormEditKamar()
         {
@@ -23,13 +26,14 @@ namespace KOS_BU_IPUNG_PBO
 
         private void LoadKamarData()
         {
-            using (SqlConnection conn = new SqlConnection(connectionString))
+            string connString = ConfigurationManager.ConnectionStrings["KOS_BU_IPUNG_PBO.Properties.Settings.DatabasePBOConnectionString"].ConnectionString;
+            using (SqlConnection connect = new SqlConnection(connString))
             {
                 string query = "SELECT * FROM kamar";
-                SqlDataAdapter adapter = new SqlDataAdapter(query, conn);
+                SqlDataAdapter adapter = new SqlDataAdapter(query, connect);
                 DataTable dt = new DataTable();
                 adapter.Fill(dt);
-                dataGridView1.DataSource = dt;
+                dataGridEditKamar.DataSource = dt;
             }
         }
 
@@ -45,8 +49,53 @@ namespace KOS_BU_IPUNG_PBO
 
         private void button4_Click(object sender, EventArgs e)
             {
-            
+            if (string.IsNullOrWhiteSpace(InputNomorLama.Text) ||
+                string.IsNullOrWhiteSpace(InputNomorBaru.Text) ||
+                string.IsNullOrWhiteSpace(InputHargaBaru.Text))
+            {
+                MessageBox.Show("Harap isi semua kolom: Nomor Kamar Lama, Nomor Baru, dan Harga Baru.",
+                                "Input Tidak Lengkap", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
             }
+
+            string connString = ConfigurationManager.ConnectionStrings["KOS_BU_IPUNG_PBO.Properties.Settings.DatabasePBOConnectionString"].ConnectionString;
+
+            using (SqlConnection connect = new SqlConnection(connString))
+            {
+                string query = "UPDATE kamar SET nomor_kamar = @nomorBaru, harga = @hargaBaru WHERE nomor_kamar = @nomorLama";
+
+                using (SqlCommand cmd = new SqlCommand(query, connect))
+                {
+                    cmd.Parameters.AddWithValue("@nomorBaru", InputNomorBaru.Text);
+                    cmd.Parameters.AddWithValue("@hargaBaru", int.Parse(InputHargaBaru.Text));
+                    cmd.Parameters.AddWithValue("@nomorLama", InputNomorLama.Text);
+
+                    try
+                    {
+                        connect.Open();
+                        int rowsAffected = cmd.ExecuteNonQuery();
+
+                        if (rowsAffected > 0)
+                        {
+                            MessageBox.Show("Data kamar berhasil diubah!", "Sukses", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            InputNomorLama.Clear();
+                            InputNomorBaru.Clear();
+                            InputHargaBaru.Clear();
+                            LoadKamarData();
+                        }
+                        else
+                        {
+                            MessageBox.Show("Gagal mengubah data. Pastikan Nomor Kamar Lama yang Anda masukkan sudah benar.",
+                                            "Data Tidak Ditemukan", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show("Terjadi error: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                }
+            }
+        }
 
         private void txtusername_TextChanged(object sender, EventArgs e)
         {

@@ -28,88 +28,89 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.label1 = new System.Windows.Forms.Label();
-            this.button4 = new System.Windows.Forms.Button();
-            this.txtusername = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.dataGridKamarTambah = new System.Windows.Forms.DataGridView();
+            this.labelNomorKamar = new System.Windows.Forms.Label();
+            this.buttonTambah = new System.Windows.Forms.Button();
+            this.InputNomorKamar = new System.Windows.Forms.TextBox();
+            this.labelHargaKamar = new System.Windows.Forms.Label();
+            this.InputHargaKamar = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridKamarTambah)).BeginInit();
             this.SuspendLayout();
             // 
-            // dataGridView1
+            // dataGridKamarTambah
             // 
-            this.dataGridView1.AllowUserToDeleteRows = false;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(18, 51);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 62;
-            this.dataGridView1.RowTemplate.Height = 28;
-            this.dataGridView1.Size = new System.Drawing.Size(654, 238);
-            this.dataGridView1.TabIndex = 4;
-            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            this.dataGridKamarTambah.AllowUserToDeleteRows = false;
+            this.dataGridKamarTambah.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridKamarTambah.Location = new System.Drawing.Point(18, 51);
+            this.dataGridKamarTambah.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.dataGridKamarTambah.Name = "dataGridKamarTambah";
+            this.dataGridKamarTambah.RowHeadersWidth = 62;
+            this.dataGridKamarTambah.RowTemplate.Height = 28;
+            this.dataGridKamarTambah.Size = new System.Drawing.Size(654, 238);
+            this.dataGridKamarTambah.TabIndex = 4;
+            this.dataGridKamarTambah.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
-            // label1
+            // labelNomorKamar
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(14, 309);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(155, 24);
-            this.label1.TabIndex = 3;
-            this.label1.Text = "Nomor Kamar";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            this.labelNomorKamar.AutoSize = true;
+            this.labelNomorKamar.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelNomorKamar.Location = new System.Drawing.Point(14, 309);
+            this.labelNomorKamar.Name = "labelNomorKamar";
+            this.labelNomorKamar.Size = new System.Drawing.Size(155, 24);
+            this.labelNomorKamar.TabIndex = 3;
+            this.labelNomorKamar.Text = "Nomor Kamar";
+            this.labelNomorKamar.Click += new System.EventHandler(this.label1_Click);
             // 
-            // button4
+            // buttonTambah
             // 
-            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(86)))), ((int)(((byte)(174)))));
-            this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button4.FlatAppearance.BorderSize = 0;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Location = new System.Drawing.Point(18, 416);
-            this.button4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(243, 44);
-            this.button4.TabIndex = 22;
-            this.button4.Text = "TAMBAH KAMAR";
-            this.button4.UseVisualStyleBackColor = false;
+            this.buttonTambah.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(86)))), ((int)(((byte)(174)))));
+            this.buttonTambah.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttonTambah.FlatAppearance.BorderSize = 0;
+            this.buttonTambah.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonTambah.ForeColor = System.Drawing.Color.White;
+            this.buttonTambah.Location = new System.Drawing.Point(18, 416);
+            this.buttonTambah.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.buttonTambah.Name = "buttonTambah";
+            this.buttonTambah.Size = new System.Drawing.Size(243, 44);
+            this.buttonTambah.TabIndex = 22;
+            this.buttonTambah.Text = "TAMBAH KAMAR";
+            this.buttonTambah.UseVisualStyleBackColor = false;
+            this.buttonTambah.Click += new System.EventHandler(this.button4_Click_1);
             // 
-            // txtusername
+            // InputNomorKamar
             // 
-            this.txtusername.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(231)))), ((int)(((byte)(233)))));
-            this.txtusername.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtusername.Location = new System.Drawing.Point(14, 338);
-            this.txtusername.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.txtusername.Multiline = true;
-            this.txtusername.Name = "txtusername";
-            this.txtusername.Size = new System.Drawing.Size(243, 35);
-            this.txtusername.TabIndex = 23;
-            this.txtusername.TextChanged += new System.EventHandler(this.txtusername_TextChanged);
+            this.InputNomorKamar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(231)))), ((int)(((byte)(233)))));
+            this.InputNomorKamar.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.InputNomorKamar.Location = new System.Drawing.Point(14, 338);
+            this.InputNomorKamar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.InputNomorKamar.Multiline = true;
+            this.InputNomorKamar.Name = "InputNomorKamar";
+            this.InputNomorKamar.Size = new System.Drawing.Size(243, 35);
+            this.InputNomorKamar.TabIndex = 23;
+            this.InputNomorKamar.TextChanged += new System.EventHandler(this.txtusername_TextChanged);
             // 
-            // label2
+            // labelHargaKamar
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(296, 309);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(146, 24);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "Harga Kamar";
+            this.labelHargaKamar.AutoSize = true;
+            this.labelHargaKamar.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelHargaKamar.Location = new System.Drawing.Point(296, 309);
+            this.labelHargaKamar.Name = "labelHargaKamar";
+            this.labelHargaKamar.Size = new System.Drawing.Size(146, 24);
+            this.labelHargaKamar.TabIndex = 3;
+            this.labelHargaKamar.Text = "Harga Kamar";
             // 
-            // textBox1
+            // InputHargaKamar
             // 
-            this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(231)))), ((int)(((byte)(233)))));
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Location = new System.Drawing.Point(300, 338);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(243, 35);
-            this.textBox1.TabIndex = 23;
-            this.textBox1.TextChanged += new System.EventHandler(this.txtusername_TextChanged);
+            this.InputHargaKamar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(231)))), ((int)(((byte)(233)))));
+            this.InputHargaKamar.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.InputHargaKamar.Location = new System.Drawing.Point(300, 338);
+            this.InputHargaKamar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.InputHargaKamar.Multiline = true;
+            this.InputHargaKamar.Name = "InputHargaKamar";
+            this.InputHargaKamar.Size = new System.Drawing.Size(243, 35);
+            this.InputHargaKamar.TabIndex = 23;
+            this.InputHargaKamar.TextChanged += new System.EventHandler(this.txtusername_TextChanged);
             // 
             // button1
             // 
@@ -134,16 +135,16 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(704, 562);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.txtusername);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.InputHargaKamar);
+            this.Controls.Add(this.InputNomorKamar);
+            this.Controls.Add(this.buttonTambah);
+            this.Controls.Add(this.dataGridKamarTambah);
+            this.Controls.Add(this.labelHargaKamar);
+            this.Controls.Add(this.labelNomorKamar);
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "FormTambahKamar";
             this.Text = "FormTambahKamar";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridKamarTambah)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -151,12 +152,12 @@
 
         #endregion
 
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.TextBox txtusername;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.DataGridView dataGridKamarTambah;
+        private System.Windows.Forms.Label labelNomorKamar;
+        private System.Windows.Forms.Button buttonTambah;
+        private System.Windows.Forms.TextBox InputNomorKamar;
+        private System.Windows.Forms.Label labelHargaKamar;
+        private System.Windows.Forms.TextBox InputHargaKamar;
         private System.Windows.Forms.Button button1;
     }
 }

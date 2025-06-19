@@ -33,5 +33,10 @@ namespace KOS_BU_IPUNG_PBO
                 }
             }
         }
+
+        private void main_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

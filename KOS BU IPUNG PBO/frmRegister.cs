@@ -168,5 +168,10 @@ namespace KOS_BU_IPUNG_PBO
                 }
             }
         }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

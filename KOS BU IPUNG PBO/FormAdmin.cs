@@ -45,9 +45,21 @@ namespace KOS_BU_IPUNG_PBO
 
         private void button4_Click(object sender, EventArgs e)
         {
-            FormStatistikKos h = new FormStatistikKos();
-            h.Show();
-            this.Hide();
+            DialogResult result = MessageBox.Show("Apakah Anda yakin ingin keluar dari aplikasi?", "Konfirmasi Keluar", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (result == DialogResult.Yes)
+            {
+                MessageBox.Show("Terimakasih telah menggunakan aplikasi kos.", "Sampai Jumpa!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                frmLogin lfrmlogin = new frmLogin();
+                lfrmlogin.Show();
+                this.Hide();
+            }
+            else
+            {
+                FormAdmin frmAdmin = new FormAdmin();
+                frmAdmin.Show();
+                this.Hide();
+
+            }
         }
 
         private void FormAdmin_FormClosing(object sender, FormClosingEventArgs e)
@@ -65,6 +77,11 @@ namespace KOS_BU_IPUNG_PBO
                     e.Cancel = true;
                 }
             }
+        }
+
+        private void FormAdmin_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

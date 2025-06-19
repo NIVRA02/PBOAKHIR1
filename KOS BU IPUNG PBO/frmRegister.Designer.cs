@@ -168,6 +168,7 @@
             this.label5.Size = new System.Drawing.Size(214, 23);
             this.label5.TabIndex = 5;
             this.label5.Text = "Already Have An Account";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // label6
             // 

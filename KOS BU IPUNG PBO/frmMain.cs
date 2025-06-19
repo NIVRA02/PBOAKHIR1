@@ -36,8 +36,21 @@ namespace KOS_BU_IPUNG_PBO
 
         private void button3_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            new FrmUserStatus().ShowDialog();
+            DialogResult result = MessageBox.Show("Apakah Anda yakin ingin keluar dari aplikasi?", "Konfirmasi Keluar", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (result == DialogResult.Yes)
+            {
+                MessageBox.Show("Terimakasih telah menggunakan aplikasi kos.", "Sampai Jumpa!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                frmLogin lfrmlogin = new frmLogin();
+                lfrmlogin.Show();
+                this.Hide();
+            }
+            else
+            {
+                frmMain frmMain = new frmMain();
+                frmMain.Show();
+                this.Hide();
+
+            }
         }
 
         private void frmMain_FormClosing(object sender, FormClosingEventArgs e)

@@ -2,7 +2,8 @@
 using System.Data;
 using System.Data.SqlClient;
 using System.Windows.Forms;
-using System.Configuration; // Make sure this is included for ConfigurationManager
+using System.Configuration;
+using System.Globalization;
 
 namespace KOS_BU_IPUNG_PBO
 {
@@ -23,7 +24,7 @@ namespace KOS_BU_IPUNG_PBO
             DataTable dtLaporan = new DataTable();
             dtLaporan.Columns.Add("Bulan", typeof(string));
             dtLaporan.Columns.Add("Tahun", typeof(int));
-            dtLaporan.Columns.Add("Pendapatan", typeof(decimal));
+            dtLaporan.Columns.Add("Pendapatan", typeof(string));
 
             decimal totalKeseluruhan = 0;
 
@@ -37,7 +38,7 @@ namespace KOS_BU_IPUNG_PBO
                 JOIN
                     kamar k ON p.id_kamar = k.id_kamar
                 WHERE
-                    p.status_validasi = 'Completed' -- Hanya pendapatan dari pemesanan yang sudah selesai dan dibayar
+                    p.status_validasi = 'L' -- UBAH DISINI: dari 'Completed' menjadi 'L' (Lunas)
                 GROUP BY
                     DATENAME(month, tanggal_pemesanan), YEAR(tanggal_pemesanan), MONTH(tanggal_pemesanan)
                 ORDER BY
@@ -56,14 +57,18 @@ namespace KOS_BU_IPUNG_PBO
                             string bulan = reader["Bulan"].ToString();
                             int tahun = Convert.ToInt32(reader["Tahun"]);
                             decimal pendapatan = Convert.ToDecimal(reader["PendapatanBulanan"]);
-                            dtLaporan.Rows.Add(bulan, tahun, pendapatan);
+
+                            string pendapatanFormatted = pendapatan.ToString("C", CultureInfo.GetCultureInfo("id-ID"));
+                            dtLaporan.Rows.Add(bulan, tahun, pendapatanFormatted);
+
                             totalKeseluruhan += pendapatan;
                         }
                         reader.Close();
                     }
                 }
                 dataGridViewLaporan.DataSource = dtLaporan;
-                lblTotalPendapatan.Text = $"Total Pendapatan Keseluruhan: Rp {totalKeseluruhan:N0}";
+
+                lblTotalPendapatan.Text = $"Total Pendapatan Keseluruhan: {totalKeseluruhan.ToString("C", CultureInfo.GetCultureInfo("id-ID"))}";
             }
             catch (Exception ex)
             {

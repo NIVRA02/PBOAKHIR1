@@ -41,32 +41,23 @@ namespace KOS_BU_IPUNG_PBO
             }
 
             int pemesananId = Convert.ToInt32(dgvPemesanan.CurrentRow.Cells["id_pemesanan"].Value);
-            DateTime tanggalMasuk = Convert.ToDateTime(dgvPemesanan.CurrentRow.Cells["tanggal_pemesanan"].Value);
-            DateTime tanggalKeluar = tanggalMasuk.AddMonths(1);
 
-            using (SqlConnection conn = new SqlConnection(connectionString))
+            DialogResult confirmResult = MessageBox.Show("Apakah Anda yakin ingin menyetujui pemesanan ini? Status akan berubah menjadi Menunggu Pembayaran.", "Konfirmasi Validasi", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+            if (confirmResult == DialogResult.Yes)
             {
-                conn.Open();
-                SqlTransaction transaction = conn.BeginTransaction();
                 try
                 {
-                    string updatePemesananQuery = "UPDATE pemesanan SET status_validasi = 'S' WHERE id_pemesanan = @PemesananID";
-                    DatabaseHelper.ExecuteNonQuery(updatePemesananQuery, new[] { new SqlParameter("@PemesananID", pemesananId) });
+                    string updatePemesananQuery = "UPDATE pemesanan SET status_validasi = 'A' WHERE id_pemesanan = @PemesananID";
+                    SqlParameter[] parameters = { new SqlParameter("@PemesananID", pemesananId) };
 
-                    string insertPenghuniQuery = "INSERT INTO penghuni (id_pemesanan, tanggal_masuk, tanggal_keluar) VALUES (@PemesananID, @TglMasuk, @TglKeluar)";
-                    DatabaseHelper.ExecuteNonQuery(insertPenghuniQuery, new[] {
-                        new SqlParameter("@PemesananID", pemesananId),
-                        new SqlParameter("@TglMasuk", tanggalMasuk),
-                        new SqlParameter("@TglKeluar", tanggalKeluar)
-                    });
+                    DatabaseHelper.ExecuteNonQuery(updatePemesananQuery, parameters);
 
-                    transaction.Commit();
-                    MessageBox.Show("Pemesanan berhasil divalidasi!", "Sukses", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show("Pemesanan berhasil divalidasi! Menunggu pembayaran dari pengguna.", "Sukses", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     LoadPendingBookings();
                 }
                 catch (Exception ex)
                 {
-                    transaction.Rollback();
                     MessageBox.Show("Gagal memvalidasi pemesanan: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }

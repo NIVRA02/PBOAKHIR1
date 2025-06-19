@@ -1,36 +1,76 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Configuration;
 using System.Data;
 using System.Data.SqlClient;
-using System.Data.SqlTypes;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Globalization;
 
 namespace KOS_BU_IPUNG_PBO
 {
     public partial class FrmUserPesan : Form
     {
-        private string connectionString = ConfigurationManager.ConnectionStrings["KOS_BU_IPUNG_PBO.Properties.Settings.DatabasePBOConnectionString"].ConnectionString;
-
         public FrmUserPesan()
         {
             InitializeComponent();
+        }
+
+        private void FrmUserPesan_Load(object sender, EventArgs e)
+        {
             LoadAvailableRooms();
+            ClearDetails();
         }
 
         private void LoadAvailableRooms()
         {
-            string query = "SELECT id_kamar, nomor_kamar FROM kamar WHERE status = 'K'";
+            string query = "SELECT id_kamar, nomor_kamar FROM kamar WHERE status = 'K' ORDER BY nomor_kamar ASC";
             DataTable dt = DatabaseHelper.ExecuteQuery(query);
 
             comboNomorKamar.DataSource = dt;
             comboNomorKamar.DisplayMember = "nomor_kamar";
             comboNomorKamar.ValueMember = "id_kamar";
+            comboNomorKamar.SelectedIndex = -1;
+        }
+
+        private void ClearDetails()
+        {
+            lblDetailHarga.Text = "-";
+            lblDetailTipe.Text = "-";
+            lblDetailFasilitas.Text = "-";
+            panelDetail.Visible = false;
+        }
+
+        private void comboNomorKamar_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (comboNomorKamar.SelectedValue == null)
+            {
+                ClearDetails();
+                return;
+            }
+
+            try
+            {
+                int selectedKamarId = (int)comboNomorKamar.SelectedValue;
+                string query = "SELECT harga, tipe_kamar, fasilitas FROM kamar WHERE id_kamar = @idKamar";
+                SqlParameter[] parameters = { new SqlParameter("@idKamar", selectedKamarId) };
+
+                DataTable dt = DatabaseHelper.ExecuteQuery(query, parameters);
+
+                if (dt.Rows.Count > 0)
+                {
+                    DataRow row = dt.Rows[0];
+
+                    decimal harga = Convert.ToDecimal(row["harga"]);
+                    lblDetailHarga.Text = harga.ToString("C", CultureInfo.GetCultureInfo("id-ID"));
+
+                    lblDetailTipe.Text = row["tipe_kamar"].ToString();
+                    lblDetailFasilitas.Text = row["fasilitas"].ToString();
+
+                    panelDetail.Visible = true;
+                }
+            }
+            catch (Exception)
+            {
+                ClearDetails();
+            }
         }
 
         private void btnPesan_Click(object sender, EventArgs e)
@@ -44,10 +84,13 @@ namespace KOS_BU_IPUNG_PBO
             int currentUserId = UserSession.Id;
             string currentUsername = UserSession.Username;
             int selectedKamarId = (int)comboNomorKamar.SelectedValue;
-
-
             DateTime bookingDate = datePickerMulaiSewa.Value;
 
+            DialogResult confirm = MessageBox.Show($"Anda akan memesan kamar nomor {comboNomorKamar.Text} untuk tanggal {bookingDate:D}?", "Konfirmasi Pemesanan", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (confirm == DialogResult.No)
+            {
+                return;
+            }
 
             try
             {
@@ -57,7 +100,7 @@ namespace KOS_BU_IPUNG_PBO
                     new SqlParameter("@Username", currentUsername),
                     new SqlParameter("@KamarId", selectedKamarId),
                     new SqlParameter("@TanggalPesan", bookingDate)
-            };
+                };
                 DatabaseHelper.ExecuteNonQuery(insertQuery, insertParams);
 
                 string updateQuery = "UPDATE kamar SET status = 'T' WHERE id_kamar = @KamarId";

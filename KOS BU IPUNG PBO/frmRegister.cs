@@ -57,6 +57,7 @@ namespace KOS_BU_IPUNG_PBO
 
         private void button1_Click(object sender, EventArgs e)
         {
+
             if (txtusername.Text == "admin")
             {
                MessageBox.Show("You cannot register with admin credentials", "Error Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -65,6 +66,19 @@ namespace KOS_BU_IPUNG_PBO
              || txtPassword.Text == "")
             {
                 MessageBox.Show("Please fill all blank fields", "Error Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            else if (txtEmail.Text.Contains(" ") || txtusername.Text.Contains(" ")
+             || txtPassword.Text.Contains(" "))
+            {
+                MessageBox.Show("Please do not use space in the fields", "Error Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            else if (txtusername.Text.Length < 5    )
+            {
+                MessageBox.Show("Username must be at least 5 characters long", "Error Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            else if (txtPassword.Text.Length < 8)
+            {
+                MessageBox.Show("Password must be at least 8 characters long", "Error Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             else
             {
@@ -75,7 +89,7 @@ namespace KOS_BU_IPUNG_PBO
                     {
                         connect.Open();
                         string txtcheckusername = "SELECT * FROM admin WHERE username = '"
-                            + txtusername.Text.Trim() + "' "; // admin is our table name 
+                            + txtusername.Text.Trim() + "' ";
 
                         using (SqlCommand checckUser = new SqlCommand(txtcheckusername, connect))
                         {
@@ -124,7 +138,7 @@ namespace KOS_BU_IPUNG_PBO
                     }
 
                 }
-          
+
             }
         }
 

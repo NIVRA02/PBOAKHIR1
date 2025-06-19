@@ -25,7 +25,7 @@ namespace KOS_BU_IPUNG_PBO
         private void button1_Click(object sender, EventArgs e)
         {
             this.Hide();
-            new FrmUserKamar().ShowDialog();
+            new FormUserProfil().ShowDialog();
         }
 
         private void button2_Click(object sender, EventArgs e)

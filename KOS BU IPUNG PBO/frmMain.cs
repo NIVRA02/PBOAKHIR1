@@ -86,5 +86,11 @@ namespace KOS_BU_IPUNG_PBO
 
             }
         }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new FrmUserKamar().ShowDialog();
+        }
     }
 }

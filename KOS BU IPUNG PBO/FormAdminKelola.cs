@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace KOS_BU_IPUNG_PBO
 {
-    public partial class FormAdminKelola: Form
+    public partial class FormAdminKelola : Form
     {
         public FormAdminKelola()
         {
@@ -52,6 +52,14 @@ namespace KOS_BU_IPUNG_PBO
         {
             FormHapusKamar frmHapusKamar = new FormHapusKamar();
             frmHapusKamar.Show();
+            this.Hide();
+        }
+
+        // New method for User Management button
+        private void button5_Click(object sender, EventArgs e)
+        {
+            FormAdminKelolaUser formAdminKelolaUser = new FormAdminKelolaUser();
+            formAdminKelolaUser.Show();
             this.Hide();
         }
     }

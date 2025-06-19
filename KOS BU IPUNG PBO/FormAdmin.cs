@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace KOS_BU_IPUNG_PBO
 {
-    public partial class FormAdmin: Form
+    public partial class FormAdmin : Form
     {
         public FormAdmin()
         {
@@ -84,11 +84,19 @@ namespace KOS_BU_IPUNG_PBO
             }
             else
             {
+                
                 frmMain frmMain = new frmMain();
                 frmMain.Show();
                 this.Hide();
-
             }
+        }
+
+        // New method for Laporan Keuangan button
+        private void button6_Click(object sender, EventArgs e)
+        {
+            FormLaporanKeuangan formLaporanKeuangan = new FormLaporanKeuangan();
+            formLaporanKeuangan.Show();
+            this.Hide();
         }
     }
 }

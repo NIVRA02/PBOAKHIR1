@@ -56,6 +56,9 @@ namespace KOS_BU_IPUNG_PBO
                 FormAdmin formAdmin = new FormAdmin();
                 formAdmin.Show();
                 this.Hide();
+
+                // Check for new pending bookings for admin notification
+                CheckForPendingBookings();
             }
 
             else if (txtusername.Text == "" || txtusername.Text == "")
@@ -108,6 +111,32 @@ namespace KOS_BU_IPUNG_PBO
             }
         }
 
+        private void CheckForPendingBookings()
+        {
+            string query = "SELECT COUNT(*) FROM pemesanan WHERE status_validasi = 'P'";
+            int pendingBookingsCount = 0;
+
+            try
+            {
+                using (SqlConnection conn = new SqlConnection(connectionString))
+                {
+                    using (SqlCommand cmd = new SqlCommand(query, conn))
+                    {
+                        conn.Open();
+                        pendingBookingsCount = (int)cmd.ExecuteScalar();
+                    }
+                }
+
+                if (pendingBookingsCount > 0)
+                {
+                    MessageBox.Show($"Ada {pendingBookingsCount} pemesanan baru yang menunggu validasi.", "Notifikasi Pemesanan Baru", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Gagal memeriksa pemesanan baru: {ex.Message}", "Error Notifikasi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
         private void txtusername_TextChanged(object sender, EventArgs e)
         {
             

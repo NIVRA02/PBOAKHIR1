@@ -116,6 +116,12 @@
     <Compile Include="FormTambahKamar.Designer.cs">
       <DependentUpon>FormTambahKamar.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormUserPayment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormUserPayment.Designer.cs">
+      <DependentUpon>FormUserPayment.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmAdmin1.cs">
       <SubType>Form</SubType>
     </Compile>

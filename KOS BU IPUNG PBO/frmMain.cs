@@ -36,23 +36,10 @@ namespace KOS_BU_IPUNG_PBO
 
         private void button3_Click(object sender, EventArgs e)
         {
-            DialogResult result = MessageBox.Show("Apakah Anda yakin ingin keluar dari aplikasi?", "Konfirmasi Keluar", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-            if (result == DialogResult.Yes)
-            {
-                MessageBox.Show("Terimakasih telah menggunakan aplikasi kos.", "Sampai Jumpa!", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                frmLogin lfrmlogin = new frmLogin();
-                lfrmlogin.Show();
-                this.Hide();
-            }
-            else
-            {
-                frmMain frmMain = new frmMain();
-                frmMain.Show();
-                this.Hide();
-
-            }
-        }
-
+            FrmUserStatus frmUserStatus = new FrmUserStatus();
+            frmUserStatus.Show();
+            this.Hide();
+        } 
         private void frmMain_FormClosing(object sender, FormClosingEventArgs e)
         {
             if (e.CloseReason == CloseReason.UserClosing)
@@ -67,6 +54,36 @@ namespace KOS_BU_IPUNG_PBO
                 {
                     e.Cancel = true;
                 }
+            }
+        }
+
+        private void frmMain_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button5_Click_1(object sender, EventArgs e)
+        {
+            this.Hide();
+            new FrmUserPayment().ShowDialog();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            DialogResult result = MessageBox.Show("Apakah Anda yakin ingin keluar dari aplikasi?", "Konfirmasi Keluar", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (result == DialogResult.Yes)
+            {
+                MessageBox.Show("Terimakasih telah menggunakan aplikasi kos.", "Sampai Jumpa!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                frmLogin lfrmlogin = new frmLogin();
+                lfrmlogin.Show();
+                this.Hide();
+            }
+            else
+            {
+                frmMain frmMain = new frmMain();
+                frmMain.Show();
+                this.Hide();
+
             }
         }
     }

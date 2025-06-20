@@ -36,6 +36,7 @@
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
+            this.buttonPesanMasuk = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -155,11 +156,27 @@
             this.button7.UseVisualStyleBackColor = false;
             this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
+            // buttonPesanMasuk
+            // 
+            this.buttonPesanMasuk.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(86)))), ((int)(((byte)(174)))));
+            this.buttonPesanMasuk.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttonPesanMasuk.FlatAppearance.BorderSize = 0;
+            this.buttonPesanMasuk.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonPesanMasuk.ForeColor = System.Drawing.Color.White;
+            this.buttonPesanMasuk.Location = new System.Drawing.Point(27, 346);
+            this.buttonPesanMasuk.Name = "buttonPesanMasuk";
+            this.buttonPesanMasuk.Size = new System.Drawing.Size(216, 35);
+            this.buttonPesanMasuk.TabIndex = 18;
+            this.buttonPesanMasuk.Text = "PESAN MASUK";
+            this.buttonPesanMasuk.UseVisualStyleBackColor = false;
+            this.buttonPesanMasuk.Click += new System.EventHandler(this.buttonPesanMasuk_Click);
+            // 
             // FormAdmin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(271, 506);
+            this.Controls.Add(this.buttonPesanMasuk);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
@@ -186,7 +203,8 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6; // Declare the new button
+        private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button buttonPesanMasuk;
     }
 }

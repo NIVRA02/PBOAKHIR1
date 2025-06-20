@@ -152,6 +152,18 @@
     <Compile Include="FrmAdmin1.Designer.cs">
       <DependentUpon>FrmAdmin1.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmKomunikasiAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmKomunikasiAdmin.Designer.cs">
+      <DependentUpon>FrmKomunikasiAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmKomunikasiUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmKomunikasiUser.Designer.cs">
+      <DependentUpon>FrmKomunikasiUser.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmMain.cs">
       <SubType>Form</SubType>
     </Compile>

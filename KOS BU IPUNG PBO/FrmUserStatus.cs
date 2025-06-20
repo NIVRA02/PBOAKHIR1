@@ -113,5 +113,19 @@ namespace KOS_BU_IPUNG_PBO
             frmMain.Show();
             this.Hide();
         }
+
+        private void btnHubungiAdmin_Click(object sender, EventArgs e)
+        {
+            if (dataGridStatus.SelectedRows.Count == 0)
+            {
+                MessageBox.Show("Silakan pilih pesanan yang ingin Anda diskusikan.", "Peringatan", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            int idPemesanan = Convert.ToInt32(dataGridStatus.SelectedRows[0].Cells["id_pemesanan"].Value);
+
+            FrmKomunikasiUser frmKomunikasi = new FrmKomunikasiUser(idPemesanan);
+            frmKomunikasi.ShowDialog();
+        }
     }
 }

@@ -66,15 +66,19 @@ C:\Users\NIVRA\Source\Repos\PBOAKHIR1\KOS BU IPUNG PBO\obj\Debug\KOS_BU_IPUNG_PB
 C:\Users\NIVRA\Source\Repos\PBOAKHIR1\KOS BU IPUNG PBO\obj\Debug\KOS_BU_IPUNG_PBO.FormTambahKamar.resources
 C:\Users\NIVRA\Source\Repos\PBOAKHIR1\KOS BU IPUNG PBO\obj\Debug\KOS_BU_IPUNG_PBO.FormUserProfil.resources
 C:\Users\Samuel Gurning\Source\Repos\PBOAKHIR1\KOS BU IPUNG PBO\obj\Debug\KOS_BU_IPUNG_PBO.FormUserProfil.resources
-C:\Users\LENOVO\Source\Repos\PBOAKHIR1\KOS BU IPUNG PBO\bin\Debug\DatabasePBO.mdf
-C:\Users\LENOVO\Source\Repos\PBOAKHIR1\KOS BU IPUNG PBO\bin\Debug\DatabasePBO_log.ldf
+C:\Users\NIVRA\Source\Repos\PBOAKHIR1\KOS BU IPUNG PBO\bin\Debug\aa\KOS BU IPUNG PBO.resources.dll
+C:\Users\NIVRA\Source\Repos\PBOAKHIR1\KOS BU IPUNG PBO\obj\Debug\KOS_BU_IPUNG_PBO.frmMain.aa.resources
+C:\Users\NIVRA\Source\Repos\PBOAKHIR1\KOS BU IPUNG PBO\obj\Debug\aa\KOS BU IPUNG PBO.resources.dll
+C:\Users\NIVRA\Source\Repos\PBOAKHIR1\KOS BU IPUNG PBO\obj\Debug\KOS_BU_IPUNG_PBO.FormAdminTagihan.resources
 C:\Users\LENOVO\Source\Repos\PBOAKHIR1\KOS BU IPUNG PBO\bin\Debug\KOS BU IPUNG PBO.exe.config
 C:\Users\LENOVO\Source\Repos\PBOAKHIR1\KOS BU IPUNG PBO\bin\Debug\KOS BU IPUNG PBO.exe
 C:\Users\LENOVO\Source\Repos\PBOAKHIR1\KOS BU IPUNG PBO\bin\Debug\KOS BU IPUNG PBO.pdb
+C:\Users\LENOVO\Source\Repos\PBOAKHIR1\KOS BU IPUNG PBO\bin\Debug\aa\KOS BU IPUNG PBO.resources.dll
 C:\Users\LENOVO\Source\Repos\PBOAKHIR1\KOS BU IPUNG PBO\obj\Debug\KOS BU IPUNG PBO.csproj.AssemblyReference.cache
 C:\Users\LENOVO\Source\Repos\PBOAKHIR1\KOS BU IPUNG PBO\obj\Debug\KOS_BU_IPUNG_PBO.FormAdmin.resources
 C:\Users\LENOVO\Source\Repos\PBOAKHIR1\KOS BU IPUNG PBO\obj\Debug\KOS_BU_IPUNG_PBO.FormAdminKelola.resources
 C:\Users\LENOVO\Source\Repos\PBOAKHIR1\KOS BU IPUNG PBO\obj\Debug\KOS_BU_IPUNG_PBO.FormAdminLihatPenghuni.resources
+C:\Users\LENOVO\Source\Repos\PBOAKHIR1\KOS BU IPUNG PBO\obj\Debug\KOS_BU_IPUNG_PBO.FormAdminTagihan.resources
 C:\Users\LENOVO\Source\Repos\PBOAKHIR1\KOS BU IPUNG PBO\obj\Debug\KOS_BU_IPUNG_PBO.FormAdminValidasi.resources
 C:\Users\LENOVO\Source\Repos\PBOAKHIR1\KOS BU IPUNG PBO\obj\Debug\KOS_BU_IPUNG_PBO.FormEditKamar.resources
 C:\Users\LENOVO\Source\Repos\PBOAKHIR1\KOS BU IPUNG PBO\obj\Debug\KOS_BU_IPUNG_PBO.FormHapusKamar.resources
@@ -89,11 +93,11 @@ C:\Users\LENOVO\Source\Repos\PBOAKHIR1\KOS BU IPUNG PBO\obj\Debug\KOS_BU_IPUNG_P
 C:\Users\LENOVO\Source\Repos\PBOAKHIR1\KOS BU IPUNG PBO\obj\Debug\KOS_BU_IPUNG_PBO.FrmUserStatus.resources
 C:\Users\LENOVO\Source\Repos\PBOAKHIR1\KOS BU IPUNG PBO\obj\Debug\KOS_BU_IPUNG_PBO.main.resources
 C:\Users\LENOVO\Source\Repos\PBOAKHIR1\KOS BU IPUNG PBO\obj\Debug\KOS_BU_IPUNG_PBO.Properties.Resources.resources
+C:\Users\LENOVO\Source\Repos\PBOAKHIR1\KOS BU IPUNG PBO\obj\Debug\KOS_BU_IPUNG_PBO.frmMain.aa.resources
 C:\Users\LENOVO\Source\Repos\PBOAKHIR1\KOS BU IPUNG PBO\obj\Debug\KOS BU IPUNG PBO.csproj.GenerateResource.cache
 C:\Users\LENOVO\Source\Repos\PBOAKHIR1\KOS BU IPUNG PBO\obj\Debug\KOS BU IPUNG PBO.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Source\Repos\PBOAKHIR1\KOS BU IPUNG PBO\obj\Debug\aa\KOS BU IPUNG PBO.resources.dll
 C:\Users\LENOVO\Source\Repos\PBOAKHIR1\KOS BU IPUNG PBO\obj\Debug\KOS BU IPUNG PBO.exe
 C:\Users\LENOVO\Source\Repos\PBOAKHIR1\KOS BU IPUNG PBO\obj\Debug\KOS BU IPUNG PBO.pdb
-C:\Users\NIVRA\Source\Repos\PBOAKHIR1\KOS BU IPUNG PBO\bin\Debug\aa\KOS BU IPUNG PBO.resources.dll
-C:\Users\NIVRA\Source\Repos\PBOAKHIR1\KOS BU IPUNG PBO\obj\Debug\KOS_BU_IPUNG_PBO.frmMain.aa.resources
-C:\Users\NIVRA\Source\Repos\PBOAKHIR1\KOS BU IPUNG PBO\obj\Debug\aa\KOS BU IPUNG PBO.resources.dll
-C:\Users\NIVRA\Source\Repos\PBOAKHIR1\KOS BU IPUNG PBO\obj\Debug\KOS_BU_IPUNG_PBO.FormAdminTagihan.resources
+C:\Users\LENOVO\Source\Repos\PBOAKHIR1\KOS BU IPUNG PBO\bin\Debug\DatabasePBO.mdf
+C:\Users\LENOVO\Source\Repos\PBOAKHIR1\KOS BU IPUNG PBO\bin\Debug\DatabasePBO_log.ldf

@@ -104,5 +104,11 @@ namespace KOS_BU_IPUNG_PBO
             formAdminTagihan.Show(); 
             this.Hide(); 
         }
+        private void buttonPesanMasuk_Click(object sender, EventArgs e)
+        {
+            FrmKomunikasiAdmin frmPesan = new FrmKomunikasiAdmin();
+            frmPesan.Show();
+            this.Hide();
+        }
     }
 }

@@ -16,7 +16,7 @@ using static System.Windows.Forms.VisualStyles.VisualStyleElement.Rebar;
 namespace KOS_BU_IPUNG_PBO
 {
 
-    public partial class frmLogin: Form
+    public partial class frmLogin : Form
     {
         private string connectionString = ConfigurationManager.ConnectionStrings["KOS_BU_IPUNG_PBO.Properties.Settings.DatabasePBOConnectionString"].ConnectionString;
 
@@ -44,7 +44,7 @@ namespace KOS_BU_IPUNG_PBO
         private void label6_Click(object sender, EventArgs e)
         {
             this.Hide();
-            frmRegister frmRegister = new frmRegister();   
+            frmRegister frmRegister = new frmRegister();
             frmRegister.ShowDialog();
 
         }
@@ -57,8 +57,7 @@ namespace KOS_BU_IPUNG_PBO
                 formAdmin.Show();
                 this.Hide();
 
-                // Check for new pending bookings for admin notification
-                CheckForPendingBookings();
+                CheckForPendingBookings(); 
             }
 
             else if (txtusername.Text == "" || txtusername.Text == "")
@@ -89,6 +88,9 @@ namespace KOS_BU_IPUNG_PBO
                                 int userId = Convert.ToInt32(table.Rows[0]["id"]);
                                 string userName = table.Rows[0]["username"].ToString();
                                 UserSession.StartSession(userId, userName);
+
+                                CheckForUnpaidBillsForUser(userName);
+
                                 frmMain mForm = new frmMain();
                                 mForm.Show();
                                 this.Hide();
@@ -137,9 +139,42 @@ namespace KOS_BU_IPUNG_PBO
                 MessageBox.Show($"Gagal memeriksa pemesanan baru: {ex.Message}", "Error Notifikasi", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        private void CheckForUnpaidBillsForUser(string username)
+        {
+            string query = @"
+                SELECT COUNT(*)
+                FROM pemesanan
+                WHERE username = @Username AND status_validasi = 'A'"; 
+            int unpaidBillsCount = 0;
+
+            try
+            {
+                using (SqlConnection conn = new SqlConnection(connectionString))
+                {
+                    using (SqlCommand cmd = new SqlCommand(query, conn))
+                    {
+                        cmd.Parameters.AddWithValue("@Username", username);
+                        conn.Open();
+                        unpaidBillsCount = (int)cmd.ExecuteScalar();
+                    }
+                }
+
+                if (unpaidBillsCount > 0)
+                {
+                    MessageBox.Show($"Anda memiliki {unpaidBillsCount} tagihan yang belum lunas. Mohon segera lakukan pembayaran.",
+                                    "Peringatan Tagihan Belum Lunas", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Gagal memeriksa tagihan belum lunas: {ex.Message}", "Error Notifikasi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
         private void txtusername_TextChanged(object sender, EventArgs e)
         {
-            
+
         }
 
         private void button2_Click(object sender, EventArgs e)

@@ -91,12 +91,18 @@ namespace KOS_BU_IPUNG_PBO
             }
         }
 
-        // New method for Laporan Keuangan button
         private void button6_Click(object sender, EventArgs e)
         {
             FormLaporanKeuangan formLaporanKeuangan = new FormLaporanKeuangan();
             formLaporanKeuangan.Show();
             this.Hide();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            FormAdminTagihan formAdminTagihan = new FormAdminTagihan(); 
+            formAdminTagihan.Show(); 
+            this.Hide(); 
         }
     }
 }
